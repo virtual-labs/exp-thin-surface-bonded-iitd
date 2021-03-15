@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <style>
+    #train {
+      position: relative;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+
+  <img id="train" src="https://js.cx/clipart/train.gif">
+
+
+  <script>
+    train.onclick = function() {
+      let start = Date.now();
+      console.log(start);
+
+      let timer = setInterval(function() {
+        let timePassed = Date.now() - start;
+        console.log(timePassed);
+        console.log("/n");
+
+        train.style.left = timePassed / 5 + 'px';
+
+        if (timePassed > 2000) clearInterval(timer);
+
+      }, 20);
+    }
+  </script>
+
+
+</body>
+
+</html>
+
+<span class="blink_me" id="arrow1b" style="position:absolute; font-size: 30px; left:1075px; top:521px; color: black; display: none;"><strong><i class="fa fa-arrow-right"></i></strong></span>
