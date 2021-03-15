@@ -1,13 +1,87 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<!-- Add CSS at the head of HTML file -->
-    <link rel="stylesheet" href="./css/main.css">
-</head>
-<body>
-		<!-- Your code goes here-->
 
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Beam Test</title>
+    
+
+    <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
+<!-- BEGIN BASE CSS STYLE -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet"type="text/css">
+    <link href="bootstrap.css" rel="stylesheet" type="text/css"> 
+    <link href="iitstyle.css" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script type="text/javascript" src="jquerymin.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script src="https://kit.fontawesome.com/afa6483c49.js" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="main.js"></script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script>
+
+        var simsubscreennum=0;
+
+        var temp=0;
+
+    </script>
+
+
+
+
+
+</head>
+
+<body style="margin:0; font-family: verdana;" >
+<table align="center">
+<tr><td>
+    <div id="simscreen">
+
+        <div id="title"><h3>PEH and SHM Using Thin Surface Bonded PZT Patches</h3></div>
+
+
+
+         <!-- Scene 1 -->
+
+
+
+        <div class="simsubscreen" id="canvas1" >
+
+        <div id="transwhite" style="height: 245px; padding-left: 10px;">
+            <br>
+            <p class="incanvas" style="font-size:15px;"><strong>Class A Train of Vehicles:</strong></p>
+            <br>
+            <br>
+            <br>
+            <p class="incanvas" style="font-size:15px;"><strong>Class B Train of Vehicles:</strong></p>
+            <br>
+            <br>
+            <br>
+            <p class="incanvas" style="font-size:15px;"><strong>Class AA Tracked and wheeled trains of Vehicles:</strong></p>
+
+            <a href="traina/index.html"><input type="button" id="nextButton1" style="position:absolute; left: 555px; top: 15px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; padding-bottom: 5px; color: #FFF;" value="&nbsp;Start Experiment&nbsp;" onclick=""/></a>
+
+            <a href="trainb/index.html"><input type="button" id="nextButton1" style="position:absolute; left: 555px; top: 103px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; padding-bottom: 5px; color: #FFF;" value="&nbsp;Start Experiment&nbsp;" onclick=""/></a>
+
+            <a href="tank/index.html"><input type="button" id="nextButton1" style="position:absolute; left: 555px; top: 195px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; padding-bottom: 5px; color: #FFF;" value="&nbsp;Start Experiment&nbsp;" onclick=""/></a>
+            </div>
+        </div>
+
+    </div><!--- First Div---->
+
+</td></tr>
+</table>
 </body>
 </html>
+
+<!-- <script src="canvasjs.min.js"></script> -->
