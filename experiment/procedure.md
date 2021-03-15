@@ -17,6 +17,7 @@ as far as SHM is concerned?<br>
 4980 LCR meter and AD5933?<br>
 
 **Procedure**
+
 This simulation experiment covers three setups: Class A train of vehicles, Class B train of vehicles and
 Class AA (tracked and wheeled) train of vehicles (Class 70 R). Abridge is considered on which 4 sets of
 PZT patches are embedded. Each set contains 12 PZT patches. So overall, the bridge contains 48 sensors.<br>
