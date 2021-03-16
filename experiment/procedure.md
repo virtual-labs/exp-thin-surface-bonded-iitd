@@ -1,5 +1,5 @@
 ### These steps will be followed for the experiment
-**PRE EXPRIMENT QUIZ QUESTIONS**
+**PRE EXPRIMENT TASK**
 
 1) What is piezoelectricity?<br>
 2) What is piezoelectric energy harvesting?<br>
@@ -42,7 +42,7 @@ n = No. of frequency data points
 As an exercise plot a histogram of RMSD for the various damaged states.<br>
 Note your observations and draw conclusions.
 
-**POST EXPRIMENT QUIZ QUESTIONS**
+**POST EXPRIMENT TASK**
 
 1) Plot the comparison conductance signatures for undamaged and
 damaged spans.<br>
