@@ -1,0 +1,362 @@
+html
+
+{
+
+    -moz-user-select     : none;
+
+    -khtml-user-select   : none;
+
+    -webkit-user-select  : none;
+
+    -o-user-select       : none;
+
+    user-select          : none;
+
+}
+
+#transwhite
+{
+	/**/
+	border: 2px solid #F36F21;
+	background-color: rgb(255, 255, 255, 0.8);
+	border-radius: 0px;
+
+}
+
+#transwhite1
+{
+	/**/
+	border: 2px solid #F36F21;
+	background-color: rgb(255, 255, 255, 0.95);
+	border-radius: 0px;
+
+}
+
+#transwhite2
+{
+	/**/
+	border: 2px solid #F36F21;
+	background-color: #FFF;
+	border-radius: 0px;
+
+}
+
+#simscreen
+
+{
+
+	position: relative;
+
+	left:0px;
+
+	top:0px;
+
+	height: 600px; 
+
+	width:800px;
+
+	border:solid 1px;
+	
+	background-color: #dce5ec;
+}
+
+
+
+#title{
+
+	position:relative;
+
+	left: 0px;
+
+	top: 0px;
+
+	height:40px;
+
+	font-size: 20px;
+
+	text-align:center;
+
+	background-color: #ff6600;
+
+	font-family: verdana;
+
+	color: White;
+
+	text-transform: uppercase; 
+
+}
+
+
+
+#title h3
+
+{
+
+	padding-top:8px;
+font-size: 20px;
+
+	margin:0px;
+
+}
+
+
+
+.simsubscreen
+
+{
+
+	position:absolute;
+
+	left:0px;
+
+	top:40px;
+
+	height:558px;
+
+	width:798px;
+
+	background-color: #dce5ec;
+
+	/*background-position: bottom;
+
+	background-image: url(images/bg.jpg); */
+
+}
+
+
+
+.incanvas
+
+{
+
+	margin:10px 0 0 10px;
+
+	padding:0;
+
+}
+
+
+
+#nextButton
+
+{
+
+	position:absolute;
+
+	left:750px;
+
+	top:530px;
+
+	cursor:pointer;
+
+}
+
+
+
+.circlebg
+
+{
+
+	border-radius:100%;
+
+	font-size:25px;
+
+	color:#fff;
+
+	text-align:center;
+
+	background:#000
+
+}
+
+
+
+.steptext
+{
+
+	display:inline;
+
+	font-size:14px;
+
+}
+
+
+
+/* Chrome, Safari, Opera */
+
+@-webkit-keyframes battryfill1
+
+{
+
+	0% { top:480px;height: 35px;}
+
+	100% { top:445px;height: 71px;}
+
+}
+
+/* Standard syntax */
+
+@keyframes battryfill1
+
+{
+
+	0% { top:480px;height: 35px;}
+
+	100% { top:445px;height: 71px;}
+
+}
+
+/* Chrome, Safari, Opera */
+
+@-webkit-keyframes mymove1
+
+{
+	from { left: 800px;}
+
+    to { left: -800px;}
+}
+
+/* Standard syntax */
+
+@keyframes mymove1
+
+{
+	from { left: 800px;}
+
+    to { left: -800px;}
+}
+
+/* Chrome, Safari, Opera */
+
+@-webkit-keyframes battryfill
+
+{
+	0% { top:501px;height: 14px;}
+
+	100% { top:480px;height: 35px;}
+}
+
+/* Standard syntax */
+
+@keyframes battryfill
+
+{
+	0% { top:501px;height: 14px;}
+
+	100% { top:480px;height: 35px;}
+}
+
+/* Chrome, Safari, Opera */
+
+@-webkit-keyframes mymove
+
+{
+	from { left: 800px;}
+
+    to { left: -800px;}
+}
+
+/* Standard syntax */
+
+@keyframes mymove
+
+{
+	from { left: 800px;}
+
+    to { left: -800px;}
+}
+
+/* Chrome, Safari, Opera */
+
+@-webkit-keyframes can3_battrylow
+
+{
+	0% { top:445px; height: 71px;}
+
+	100% { top:511px; height: 4px;}
+}
+
+/* Standard syntax */
+
+@keyframes can3_battrylow
+
+{
+	0% { top:445px; height: 71px;}
+
+	100% { top:511px; height: 4px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* scene 12 code end*/
+
+
+/*======================================================*/
+
+/*start Blinking*/
+
+.blink_me {
+  animation: blinker 1s linear infinite;
+  color: #2150a0;
+}
+
+@keyframes blinker {
+  50% {
+  	color: #2150a0;
+    opacity: 0;
+  }
+}
+
+
+
+
+
+
+/**
+ * ----------------------------------------
+ * animation slide-top
+ * ----------------------------------------
+ */
+
+/*
+.slide-top {
+	-webkit-animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+
+@-webkit-keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-100px);
+            transform: translateY(-100px);
+  }
+}
+@keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-100px);
+            transform: translateY(-100px);
+  }
+}
+*/
