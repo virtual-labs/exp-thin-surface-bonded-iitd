@@ -1,4 +1,3 @@
-
 function navNext1()
 
 {
@@ -465,7 +464,7 @@ function sbbtn_span1()
  console.log(span1_f1);
  console.log(span1_f2);
 
- if(span1_f1>50000 && span1_f1<220000 && span1_f2>50000 && span1_f2<220000 )
+ if(span1_f1>50 && span1_f1<220 && span1_f2>50 && span1_f2<220 )
  {
 document.getElementById("graph_span1").style.visibility="visible";
 document.getElementById("dwnld_span1").style.visibility="visible";
@@ -474,7 +473,7 @@ document.getElementById("lcr_span1").style.visibility="visible";
  else
  {
 
-    alert("Kindly enter frequency range between 50000 to 220000 KHz")
+    alert("Kindly enter frequency range between 50 to 220 KHz")
  }
 }
 
@@ -515,7 +514,7 @@ function sbbtn_span1_damaged()
  console.log(span1_f1_damaged);
  console.log(span1_f2_damaged);
 
-if(span1_f1_damaged>50000 && span1_f1_damaged<220000 && span1_f2_damaged>50000 && span1_f2_damaged<220000 )
+if(span1_f1_damaged>50 && span1_f1_damaged<220 && span1_f2_damaged>50 && span1_f2_damaged<220 )
  {
 document.getElementById("graph_damage_span1").style.visibility="visible";
 document.getElementById("lcr_span1_damaged").style.visibility="visible";
@@ -524,7 +523,7 @@ document.getElementById("dwnld_span1_damaged").style.visibility="visible";
  else
  {
 
-    alert("Kindly enter frequency range between 50000 to 220000 KHz")
+    alert("Kindly enter frequency range between 50 to 220 KHz")
  }
 }
 
@@ -895,7 +894,3 @@ function reset_span4_damaged()
 // document.getElementById("canvas18").style.visibility="hidden";
 // document.getElementById("canvas19").style.visibility="visible";
 // }
-
-
-
-
