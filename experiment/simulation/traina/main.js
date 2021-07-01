@@ -481,7 +481,7 @@ document.getElementById("lcr_span1").style.visibility="visible";
 function dwnld_span1()
 {
 
-
+window.location.href = "data/undamaged_data.xlsx";
 document.getElementById("arrow4").style.visibility="visible";
 document.getElementById("nextButton4").style.visibility="visible";
 
@@ -530,6 +530,7 @@ document.getElementById("dwnld_span1_damaged").style.visibility="visible";
 function dwnld_span1_damaged()
 {
 
+window.location.href = "data/damaged_span1.xlsx";
 document.getElementById("arrow6").style.visibility="visible";
 document.getElementById("nextButton6").style.visibility="visible";
 
@@ -607,7 +608,7 @@ function reset_span2()
 function dwnld_span2()
 {
 
-
+window.location.href = "data/undamaged_data.xlsx";
 document.getElementById("arrow8").style.visibility="visible";
 document.getElementById("nextButton8").style.visibility="visible";
 
@@ -650,6 +651,8 @@ document.getElementById("dwnld_span2_damaged").style.visibility="visible";
 
 function dwnld_span2_damaged()
 {
+
+window.location.href = "data/damaged_span2.xlsx";
 document.getElementById("arrow10").style.visibility="visible";
 document.getElementById("nextButton10").style.visibility="visible";
 
@@ -720,7 +723,7 @@ function reset_span3()
 function dwnld_span3()
 {
 
-
+window.location.href = "data/undamaged_data.xlsx";
 document.getElementById("arrow12").style.visibility="visible";
 document.getElementById("nextButton12").style.visibility="visible";
 
@@ -763,6 +766,7 @@ document.getElementById("dwnld_span3_damaged").style.visibility="visible";
 
 function dwnld_span3_damaged()
 {
+window.location.href = "data/damaged_span3.xlsx";
 document.getElementById("arrow14").style.visibility="visible";
 document.getElementById("nextButton14").style.visibility="visible";
 }
@@ -834,7 +838,7 @@ function reset_span4()
 function dwnld_span4()
 {
 
-
+window.location.href = "data/undamaged_data.xlsx";
 document.getElementById("arrow16").style.visibility="visible";
 document.getElementById("nextButton16").style.visibility="visible";
 
@@ -876,6 +880,7 @@ document.getElementById("dwnld_span4_damaged").style.visibility="visible";
 
 function dwnld_span4_damaged()
 {
+window.location.href = "data/damaged_span4.xlsx";
 document.getElementById("arrow18").style.visibility="visible";
 document.getElementById("nextButton18").style.visibility="visible";
 }
