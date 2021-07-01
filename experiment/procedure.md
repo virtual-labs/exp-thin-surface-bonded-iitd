@@ -54,4 +54,4 @@ spans by comparing damaged and undamaged signatures?<br>
 5) How much is the energy harvested from vibrations in µW, when the
 bridge vibrates for 1 minute. Assume the bridge to be three span
 concrete bridge in North of France (Peigney and Siegert, 2013), refer
-Table 6.3 (page 139) of Ph. D. thesis of Dr. Naveet Kaur.<br>
+Table 6.3 (page 139) of <a href="images/naveet.pdf">Ph. D. thesis of Dr. Naveet Kaur</a>.<br>
