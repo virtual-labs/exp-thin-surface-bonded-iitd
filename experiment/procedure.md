@@ -24,20 +24,20 @@ This simulation experiment covers three setups: Class A train of vehicles, Class
 <br><br>
 <img src="images/pr3.png" height="400px">
 <br><br>
-Figure 2 (a) Energy harvesting stage for Class A train of vehicles (b) SHM of damaged span 1 (c) SHM of
+<b>Figure 2</b> (a) Energy harvesting stage for Class A train of vehicles (b) SHM of damaged span 1 (c) SHM of
 damaged span 2 (d) SHM of damaged span 3<br><br>
 By clicking the appropriate links, the user can download the signatures corresponding to the baseline
 (undamaged) and damaged states. To statistically quantify damage, compute root mean square deviation
 (RMSD) in conductance by following equation directly in MS excel:
 <br><br>
-<img src="images/pr1.png" height="100px">
+<img src="images/pr1.png" height="150px">
 <br><br>
 Where<br><br>
- G<sup>0</sup><sub>i</sub> = Baseline conductance value at i<sup>th</sup> frequency.<br>
- G<sup>1</sup><sub>i</sub> = Conductance value after damage at i<sup>th</sup> frequency.<br>
-n = No. of frequency data points
-As an exercise plot a histogram of RMSD for the various damaged states.<br>
-Note your observations and draw conclusions.
+ G<sub>i</sub><sup>0</sup> = Baseline conductance value at <i>i<sup>th</sup></i> frequency.<br>
+ G<sub>i</sub><sup>1</sup> = Conductance value after damage at <i>i<sup>th</sup></i> frequency.<br>
+<i>n</i> = No. of frequency data points
+
+As an exercise plot a histogram of RMSD for the various damaged states. Note your observations and draw conclusions.
 
 **POST EXPERIMENT TASK**
 
