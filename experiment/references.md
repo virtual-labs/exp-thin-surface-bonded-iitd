@@ -1,5 +1,5 @@
 1. Kaur, N. and Bhalla, S. (2014), “Feasibility of Energy Harvesting from Thin Piezo Patches via Axial
-Strain (d31) Actuation Mode”, Journal of Civil Structural Health Monitoring, Vol. 4, No. 1 (Feb), pp. 1-
+Strain (d<sub>31</sub>) Actuation Mode”, Journal of Civil Structural Health Monitoring, Vol. 4, No. 1 (Feb), pp. 1-
 15, DOI: 10.1007/s13349-013-0048-1.
 
 2. Kaur, N. and Bhalla, S. (2015), “Combined Energy Harvesting and Structural Health Monitoring
