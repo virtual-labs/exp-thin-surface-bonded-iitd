@@ -2,7 +2,7 @@
 
 This simulation experiment is based on the basic analytical model and experimental study involving surface
 bonded PZT patches operating in the d<sub>31</sub>-mode for energy harvesting covered in the doctoral thesis of Dr.
-Naveet Kaur. The d<sub>31</sub>-mode is explored for the possibility of energy harvesting from the PZT patch owing to its well established suitability for SHM, by
+Naveet Kaur. (<a href="images/naveet.pdf">naveet.pdf</a>) The d<sub>31</sub>-mode is explored for the possibility of energy harvesting from the PZT patch owing to its well established suitability for SHM, by
 means of either the global vibration or the local EMI technique. The principle of integrated SHM and
 energy harvesting is illustrated below.<br><br>
 The structure is assumed to be operating in two states, idle state and SHM state. During the idle state (when
