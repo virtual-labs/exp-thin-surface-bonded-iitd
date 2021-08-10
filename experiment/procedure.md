@@ -1,5 +1,5 @@
 ### These steps will be followed for the experiment
-**PRE EXPERIMENT TASK**
+<!-- **PRE EXPERIMENT TASK**
 
 1) What is piezoelectricity?<br>
 2) What is piezoelectric energy harvesting?<br>
@@ -14,7 +14,7 @@ SHM?<br>
 8) What are the salient features of Keysight 4980 LCR meter and AD5933
 as far as SHM is concerned?<br>
 9) How much input energy is needed for one time operation of Keysight
-4980 LCR meter and AD5933?<br>
+4980 LCR meter and AD5933?<br> -->
 
 **Procedure**
 
@@ -34,7 +34,7 @@ Where<br><br>
 
 As an exercise plot a histogram of RMSD for the various damaged states. Note your observations and draw conclusions.
 
-**POST EXPERIMENT TASK**
+<!-- **POST EXPERIMENT TASK**
 
 1) Plot the comparison conductance signatures for undamaged and
 damaged spans.<br>
@@ -47,3 +47,4 @@ spans by comparing damaged and undamaged signatures?<br>
 bridge vibrates for 1 minute. Assume the bridge to be three span
 concrete bridge in North of France (Peigney and Siegert, 2013), refer
 Table 6.3 (page 139) of <a href="images/naveet.pdf">Ph. D. thesis of Dr. Naveet Kaur</a>.<br>
+ -->
