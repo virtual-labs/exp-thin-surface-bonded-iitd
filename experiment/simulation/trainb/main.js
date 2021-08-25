@@ -466,7 +466,7 @@ function sbbtn_span1()
 
  if(span1_f1>50 && span1_f1<220 && span1_f2>50 && span1_f2<220 )
  {
-document.getElementById("graph_span1").style.visibility="visible";
+// document.getElementById("graph_span1").style.visibility="visible";
 document.getElementById("dwnld_span1").style.visibility="visible";
 document.getElementById("lcr_span1").style.visibility="visible";
  }
@@ -516,7 +516,7 @@ function sbbtn_span1_damaged()
 
 if(span1_f1_damaged>50 && span1_f1_damaged<220 && span1_f2_damaged>50 && span1_f2_damaged<220 )
  {
-document.getElementById("graph_damage_span1").style.visibility="visible";
+// document.getElementById("graph_damage_span1").style.visibility="visible";
 document.getElementById("lcr_span1_damaged").style.visibility="visible";
 document.getElementById("dwnld_span1_damaged").style.visibility="visible";
  }
@@ -585,7 +585,7 @@ function sbbtn_span2()
 
  if(span2_f1>1 && span2_f1<250 && span2_f2>1 && span2_f2<250 )
  {
-document.getElementById("graph_span2").style.visibility="visible";
+// document.getElementById("graph_span2").style.visibility="visible";
 document.getElementById("dwnld_span2").style.visibility="visible";
 document.getElementById("lcr_span2").style.visibility="visible";
  }
@@ -637,7 +637,7 @@ function sbbtn_span2_damaged()
 
 if(span2_f1_damaged>1 && span2_f1_damaged<250 && span2_f2_damaged>1 && span2_f2_damaged<250 )
  {
-document.getElementById("graph_damage_span2").style.visibility="visible";
+// document.getElementById("graph_damage_span2").style.visibility="visible";
 document.getElementById("lcr_span2_damaged").style.visibility="visible";
 document.getElementById("dwnld_span2_damaged").style.visibility="visible";
  }
@@ -699,7 +699,7 @@ function sbbtn_span3()
 
  if(span3_f1>1 && span3_f1<250 && span3_f2>1 && span3_f2<250 )
  {
-document.getElementById("graph_span3").style.visibility="visible";
+// document.getElementById("graph_span3").style.visibility="visible";
 document.getElementById("dwnld_span3").style.visibility="visible";
 document.getElementById("lcr_span3").style.visibility="visible";
  }
@@ -751,7 +751,7 @@ function sbbtn_span3_damaged()
 
 if(span3_f1_damaged>1 && span3_f1_damaged<250 && span3_f2_damaged>1 && span3_f2_damaged<250 )
  {
-document.getElementById("graph_damage_span3").style.visibility="visible";
+// document.getElementById("graph_damage_span3").style.visibility="visible";
 document.getElementById("lcr_span3_damaged").style.visibility="visible";
 document.getElementById("dwnld_span3_damaged").style.visibility="visible";
  }
@@ -814,7 +814,7 @@ function sbbtn_span4()
 
  if(span4_f1>1 && span4_f1<250 && span4_f2>1 && span4_f2<250 )
  {
-document.getElementById("graph_span4").style.visibility="visible";
+// document.getElementById("graph_span4").style.visibility="visible";
 document.getElementById("dwnld_span4").style.visibility="visible";
 document.getElementById("lcr_span4").style.visibility="visible";
  }
@@ -865,7 +865,7 @@ function sbbtn_span4_damaged()
 
 if(span4_f1_damaged>1 && span4_f1_damaged<250 && span4_f2_damaged>1 && span4_f2_damaged<250 )
  {
-document.getElementById("graph_damage_span4").style.visibility="visible";
+// document.getElementById("graph_damage_span4").style.visibility="visible";
 document.getElementById("lcr_span4_damaged").style.visibility="visible";
 document.getElementById("dwnld_span4_damaged").style.visibility="visible";
  }
