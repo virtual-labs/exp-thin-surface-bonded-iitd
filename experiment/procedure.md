@@ -27,7 +27,7 @@ By clicking the appropriate links, the user can download the signatures correspo
 <br><br>
 <img src="images/pr1.png" height="150px">
 <br><br>
-Where<br><br>
+where<br><br>
  G<sub>i</sub><sup>0</sup> = Baseline conductance value at <i>i<sup>th</sup></i> frequency.<br>
  G<sub>i</sub><sup>1</sup> = Conductance value after damage at <i>i<sup>th</sup></i> frequency.<br>
 <i>n</i> = No. of frequency data points
