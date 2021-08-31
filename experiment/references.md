@@ -8,8 +8,7 @@ Vol. 141, No 4 (Dec), pp. D4014001 (1-18).
 
 3. <a href="images/piezo.pdf">Literature on piezoelectric sensors.</a>
 
-4. Integrated Structural Health Monitoring And Energy Harvesting Potential Of Adhesively Bonded Thin Piezo Patches Operating In d<sub>31</sub> Mode by <a href="images/naveet.pdf">Dr. Naveet Kaur</a>.
+4. Integrated Structural Health Monitoring And Energy Harvesting Potential Of Adhesively Bonded Thin Piezo Patches Operating In <i>d</i><sub>31</sub> Mode by <a href="images/naveet.pdf">Dr. Naveet Kaur</a>.
 
 5. For manual <a href="images/manual_exp9.pdf" target="_blank">click here</a>
 
- 
