@@ -473,7 +473,7 @@ document.getElementById("lcr_span1").style.visibility="visible";
  else
  {
 
-    alert("Kindly enter frequency range between 50 to 220 KHz")
+    alert("Kindly enter frequency range between 50 to 220 kHz")
  }
 }
 
@@ -523,7 +523,7 @@ document.getElementById("dwnld_span1_damaged").style.visibility="visible";
  else
  {
 
-    alert("Kindly enter frequency range between 50 to 220 KHz")
+    alert("Kindly enter frequency range between 50 to 220 kHz")
  }
 }
 
@@ -592,7 +592,7 @@ document.getElementById("lcr_span2").style.visibility="visible";
  else
  {
 
-    alert("Kindly enter frequency range between 1 to 250 KHz")
+    alert("Kindly enter frequency range between 1 to 250 kHz")
  }
 }
 
@@ -644,7 +644,7 @@ document.getElementById("dwnld_span2_damaged").style.visibility="visible";
  else
  {
 
-    alert("Kindly enter frequency range between 1 to 250 KHz")
+    alert("Kindly enter frequency range between 1 to 250 kHz")
  }
 }
 
@@ -706,7 +706,7 @@ document.getElementById("lcr_span3").style.visibility="visible";
  else
  {
 
-    alert("Kindly enter frequency range between 1 to 250 KHz")
+    alert("Kindly enter frequency range between 1 to 250 kHz")
  }
 }
 
@@ -758,7 +758,7 @@ document.getElementById("dwnld_span3_damaged").style.visibility="visible";
  else
  {
 
-    alert("Kindly enter frequency range between 1 to 250 KHz")
+    alert("Kindly enter frequency range between 1 to 250 kHz")
  }
 }
 
@@ -821,7 +821,7 @@ document.getElementById("lcr_span4").style.visibility="visible";
  else
  {
 
-    alert("Kindly enter frequency range between 1 to 250 KHz")
+    alert("Kindly enter frequency range between 1 to 250 kHz")
  }
 }
 
@@ -872,7 +872,7 @@ document.getElementById("dwnld_span4_damaged").style.visibility="visible";
  else
  {
 
-    alert("Kindly enter frequency range between 1 to 250 KHz")
+    alert("Kindly enter frequency range between 1 to 250 kHz")
  }
 }
 
