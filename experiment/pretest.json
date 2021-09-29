@@ -1,0 +1,40 @@
+[{
+	"question": "Q1. The d<sub>31 </sub>-mode is explored for the possibility of energy harvesting from the",
+	"answers": {
+		"a": "PZT patch",
+		"b": "SHM state",
+		"c": "Idle state",
+		"d": "All of the above"
+	},
+	"correctAnswer": "a"
+}, {
+	"question": "Q2. The structure is assumed to be operating the idle state and SHM state",
+	"answers": {
+		"a": "True",
+		"b": "False"
+		
+	},
+	"correctAnswer": "a"
+}, {
+	"question": "Q3. The PZT patches will harvest the energy and store it in an appropriate storage SHM state",
+	"answers": {
+		"a": "True",
+		"b": "False"
+	},
+	"correctAnswer": "a"
+}, {
+	"question": "Q4. In the SHM state, the same stored energy will be utilized for the SHM of the host structure by the other  PZT patch",
+	"answers": {
+		"a": "True",
+		"b": "False"
+	},
+	"correctAnswer": "b"
+}, {
+	"question": "Q5. The total duration of the SHM state will be very small as compared to the idle state",
+	"answers": {
+		"a": "True",
+		"b": "False"
+		
+	},
+	"correctAnswer": "a"
+}]
