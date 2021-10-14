@@ -23,7 +23,7 @@
 	},
 	"correctAnswer": "a"
 }, {
-	"question": "Q4. In the SHM state, the same stored energy will be utilized for the SHM of the host structure by the other  PZT patch",
+	"question": "Q4. In the SHM state, the same stored energy will be utilized by the other  PZT patch",
 	"answers": {
 		"a": "True",
 		"b": "False"
