@@ -11,7 +11,7 @@
 	"question": "Q2. The PZT patches will harvest the energy and store it in an",
 	"answers": {
 		"a": "Local storage",
-		"b": "Appropriate storage",
+		"b": "Appropriate storage device",
 		"c": "Global mode",
 		"d": "PZT patch surface"
 	},
