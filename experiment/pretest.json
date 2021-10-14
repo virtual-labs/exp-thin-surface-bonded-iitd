@@ -8,7 +8,7 @@
 	},
 	"correctAnswer": "a"
 }, {
-	"question": "Q2. The structure is assumed to be operating the idle state and SHM state",
+	"question": "Q2. The structure is assumed to be operating in idle state and SHM state",
 	"answers": {
 		"a": "True",
 		"b": "False"
