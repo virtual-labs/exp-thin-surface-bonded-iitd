@@ -16,7 +16,7 @@
 	},
 	"correctAnswer": "a"
 }, {
-	"question": "Q3. The PZT patches will harvest the energy and store it in an appropriate storage SHM state",
+	"question": "Q3. The PZT patches will harvest the energy and store it in an appropriate storage device for SHM state",
 	"answers": {
 		"a": "True",
 		"b": "False"
