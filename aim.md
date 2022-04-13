@@ -1,0 +1,1 @@
+#### This simulation based experiment is designed to teach the concept of piezoelectric energy harvesting through a combination of animation and the analytical model developed by Dr. Kaur and Prof. Bhalla (2014, 2015). The basic idea is to harvest vibration energy using thin PZT patch surface bonded on a bridge and to use that energy for structural health monitoring (SHM).

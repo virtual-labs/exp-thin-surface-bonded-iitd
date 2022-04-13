@@ -1,0 +1,2332 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Beam Test</title>
+    
+
+    <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet"type="text/css">
+    <link href="bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="iitstyle.css" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script type="text/javascript" src="jquerymin.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- <script src="https://kit.fontawesome.com/afa6483c49.js" crossorigin="anonymous"></script> -->
+
+    <script type="text/javascript" src="main.js"></script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+<!-- Drag and Drop Offline Link -->
+
+    <script type="text/javascript" src="jquery/1.11.2/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery/1.11.2/jquery-ui.min.js"></script>
+
+    <script>
+
+        var simsubscreennum=0;
+
+        var temp=0;
+
+    </script>
+
+
+
+
+
+</head>
+
+<body style="margin:0; font-family: verdana;" >
+<table align="center">
+    <tr>
+        <td>
+        
+    <div id="simscreen">
+
+        <div id="title"><h3 id="title1">Class B Train of Vehicles</h3></div>
+
+
+
+         <!-- Scene 1 -->
+
+
+
+        <div class="simsubscreen" id="canvas1" ></br>
+
+<!-----<strong class="incanvas">STEP</strong>
+
+            <span class="circlebg">&nbsp;1&nbsp;</span>----->
+<div id="transwhite" style="width: 700px; margin-right: 50px; margin-left: 50px; visibility: hidden;">
+            <p class="incanvas" style="font-size:15px;"><strong>The Nose to Tail distance between successive trains shall not be less than 18.4 m.</strong></p>
+
+            <!-- <p class="incanvas" style="font-size:14px;">To Study Modes of Vibrations of Plate.</p></br> -->
+
+            <!-- <p class="incanvas" style="font-size:15px;"><strong>Apparatus used:</strong></p> -->
+
+            <!-- <p class="incanvas" style="font-size:14px;"></p></br> -->
+</div>
+<img src="images/bridge.png" style="position: absolute; left: 0px; top: 80px; height: 350px; width: 798px;"draggable="false">
+
+<span style="position: absolute; left: 95px; top:112px; color: ghostwhite; font-size: 18px;">SPAN-1</span>
+
+<span style="position: absolute; left: 274px; top:112px; color: ghostwhite; font-size: 18px;">SPAN-2</span>
+
+<span style="position: absolute; left: 455px; top:112px; color: ghostwhite; font-size: 18px;">SPAN-3</span>
+
+<span style="position: absolute; left: 643px; top:112px; color: ghostwhite; font-size: 18px;">SPAN-4</span>
+
+<!-- Yellow Wires -->
+<img src="images/w1.png" style="position: absolute; left: 120px; top: 260px; height: 220px; width: 610px;"draggable="false">
+
+<img src="images/w2.png" style="position: absolute; left: 300px; top: 260px; height: 220px; width: 440px;"draggable="false">
+
+<img src="images/w3.png" style="position: absolute; left: 480px; top: 260px; height: 220px; width: 280px;"draggable="false">
+
+<img src="images/w4.png" style="position: absolute; left: 670px; top: 260px; height: 220px; width: 100px;"draggable="false">
+
+<!-- Green Plates -->
+<img src="images/plategreen.png" style="position: absolute; left: 100px; top: 140px; height: 120px;"draggable="false">
+
+<img src="images/plategreen.png" style="position: absolute; left: 280px; top: 140px; height: 120px;"draggable="false">
+
+<img src="images/plategreen.png" style="position: absolute; left: 460px; top: 140px; height: 120px;"draggable="false">
+
+<img src="images/plategreen.png" style="position: absolute; left: 650px; top: 140px; height: 120px;"draggable="false">
+
+<img src="images/ss.jpg" style="
+    position: absolute;
+    left: 670px;
+    top: 442px;
+    height: 75px;
+    width:112px;
+    border: 1px solid black;
+    visibility: ;"draggable="false">
+<img src="images/battry.png" style="
+    position: absolute;
+    left: 670px;
+    top: 432px;
+    height: 85px;
+    visibility: ;"draggable="false">
+
+            <!-- <p class="incanvas" style="font-size:18px; text-align: center; position:absolute; left:400px; top:400px;"><strong>Speciman Type<br>Beam</strong></p> -->
+
+<span class="blink_me" id="arrow1" style="position:absolute; font-size: 30px; left:460px; top:490px; color: blue; visibility: ;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+            <input type="button" id="nextButton1" style="position:absolute; left: 500px; top: 495px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; padding-bottom: 5px; color: #FFF;" value="&nbsp;Start Experiment&nbsp;" onclick="navNext1()"/>
+
+        </div>
+
+        
+
+
+        <!-- Step 2 -->
+
+
+        <div class="simsubscreen" id="canvas2" style="visibility:hidden; overflow: hidden;"> 
+
+
+ 
+<img src="images/bridge.png" style="position: absolute; left: 0px; top: 80px; height: 350px; width: 798px;"draggable="false">
+
+<span style="position: absolute; left: 95px; top:112px; color: ghostwhite; font-size: 18px;">SPAN-1</span>
+
+<span style="position: absolute; left: 274px; top:112px; color: ghostwhite; font-size: 18px;">SPAN-2</span>
+
+<span style="position: absolute; left: 455px; top:112px; color: ghostwhite; font-size: 18px;">SPAN-3</span>
+
+<span style="position: absolute; left: 643px; top:112px; color: ghostwhite; font-size: 18px;">SPAN-4</span>
+
+<!-- Yellow Wires -->
+<img src="images/w1.png" id="y_wr1" style="position: absolute; left: 120px; top: 260px; height: 220px; width: 610px;"draggable="false">
+
+<img src="images/w2.png" id="y_wr2" style="position: absolute; left: 300px; top: 260px; height: 220px; width: 440px;"draggable="false">
+
+<img src="images/w3.png" id="y_wr3" style="position: absolute; left: 480px; top: 260px; height: 220px; width: 280px;"draggable="false">
+
+<img src="images/w4.png" id="y_wr4" style="position: absolute; left: 670px; top: 260px; height: 220px; width: 100px;"draggable="false">
+
+<!-- Green Plates -->
+<img src="images/plategreen.png" id="g1" style="position: absolute; left: 100px; top: 140px; height: 120px;"draggable="false">
+
+<img src="images/plategreen.png" id="g2" style="position: absolute; left: 280px; top: 140px; height: 120px;"draggable="false">
+
+<img src="images/plategreen.png" id="g3" style="position: absolute; left: 460px; top: 140px; height: 120px;"draggable="false">
+
+<img src="images/plategreen.png" id="g4" style="position: absolute; left: 650px; top: 140px; height: 120px;"draggable="false">
+
+<!-- Red Wires -->
+<img src="images/wr1.png" id="r_wr1" style="position: absolute; left: 120px; top: 260px; height: 220px; width: 610px;visibility: hidden;"draggable="false">
+
+<img src="images/wr2.png" id="r_wr2" style="position: absolute; left: 300px; top: 260px; height: 220px; width: 440px;visibility: hidden;"draggable="false">
+
+<img src="images/wr3.png" id="r_wr3" style="position: absolute; left: 480px; top: 260px; height: 220px; width: 280px;visibility: hidden;"draggable="false">
+
+<img src="images/wr4.png" id="r_wr4" style="position: absolute; left: 670px; top: 260px; height: 220px; width: 100px;visibility: hidden;"draggable="false">
+
+
+<!-- Red Plates -->
+<img src="images/platered.png" id="r1" style="position: absolute; left: 100px; top: 140px; height: 120px;visibility: hidden;"draggable="false">
+
+<img src="images/platered.png" id="r2" style="position: absolute; left: 280px; top: 140px; height: 120px;visibility: hidden;"draggable="false">
+
+<img src="images/platered.png" id="r3" style="position: absolute; left: 460px; top: 140px; height: 120px;visibility: hidden;"draggable="false">
+
+<img src="images/platered.png" id="r4" style="position: absolute; left: 650px; top: 140px; height: 120px;visibility: hidden;"draggable="false">
+
+<!-- /////////////////////////////////////////////////////////////////// -->
+
+<img src="images/w4.png" id="y_wr4_vis" style="position: absolute; left: 670px; top: 260px; height: 220px; width: 100px;visibility: hidden;"draggable="false">
+
+<img src="images/plategreen.png" id="g4_vis" style="position: absolute; left: 650px; top: 140px; height: 120px;visibility: hidden;"draggable="false">
+
+<img src="images/w3.png" id="y_wr3_vis" style="position: absolute; left: 480px; top: 260px; height: 220px; width: 280px;visibility: hidden;"draggable="false">
+
+<img src="images/plategreen.png" id="g3_vis" style="position: absolute; left: 460px; top: 140px; height: 120px;visibility: hidden;"draggable="false">
+
+<img src="images/w2.png" id="y_wr2_vis" style="position: absolute; left: 300px; top: 260px; height: 220px; width: 440px;visibility: hidden;"draggable="false">
+
+<img src="images/plategreen.png" id="g2_vis" style="position: absolute; left: 280px; top: 140px; height: 120px;visibility: hidden;"draggable="false">
+
+<img src="images/w1.png" id="y_wr1_vis" style="position: absolute; left: 120px; top: 260px; height: 220px; width: 610px;visibility: hidden;"draggable="false">
+
+<img src="images/plategreen.png" id="g1_vis" style="position: absolute; left: 100px; top: 140px; height: 120px;visibility: hidden;"draggable="false">
+
+
+
+<!-- /////////////////////////////////////////////////////////////////// -->
+
+<img src="images/w4.png" id="y_wr4_vis2" style="position: absolute; left: 670px; top: 260px; height: 220px; width: 100px;visibility: hidden;"draggable="false">
+
+<img src="images/plategreen.png" id="g4_vis2" style="position: absolute; left: 650px; top: 140px; height: 120px;visibility: hidden;"draggable="false">
+
+<img src="images/w3.png" id="y_wr3_vis2" style="position: absolute; left: 480px; top: 260px; height: 220px; width: 280px;visibility: hidden;"draggable="false">
+
+<img src="images/plategreen.png" id="g3_vis2" style="position: absolute; left: 460px; top: 140px; height: 120px;visibility: hidden;"draggable="false">
+
+<img src="images/w2.png" id="y_wr2_vis2" style="position: absolute; left: 300px; top: 260px; height: 220px; width: 440px;visibility: hidden;"draggable="false">
+
+<img src="images/plategreen.png" id="g2_vis2" style="position: absolute; left: 280px; top: 140px; height: 120px;visibility: hidden;"draggable="false">
+
+<img src="images/w1.png" id="y_wr1_vis2" style="position: absolute; left: 120px; top: 260px; height: 220px; width: 610px;visibility: hidden;"draggable="false">
+
+<img src="images/plategreen.png" id="g1_vis2" style="position: absolute; left: 100px; top: 140px; height: 120px;visibility: hidden;"draggable="false">
+
+
+<!-- shm and btry -->
+
+<img src="images/ss.jpg" style="
+    position: absolute;
+    left: 670px;
+    top: 442px;
+    height: 75px;
+    width:112px;
+    border: 1px solid black;
+    visibility: ;"draggable="false">
+
+<img src="images/battryfill.png" id="battryfill"style="
+    position: absolute;
+    left: 672px;
+    top: 501px;
+    height: 14px;
+    width: 109px;
+    visibility: ;"draggable="false">
+
+<img src="images/battry.png" style="
+    position: absolute;
+    left: 670px;
+    top: 432px;
+    height: 85px;
+    visibility: ;"draggable="false">
+
+
+
+<img src="images/rail.png" id="train1" style="position: absolute; left: 800px; top: 115px; height: 120px;visibility: hidden; "draggable="false"> 
+
+        
+            <!--Blinking arrowcubox  -->
+            <span class="blink_me" id="arrow2" style="position:absolute; font-size: 30px; left:702px; top:516px; color: blue; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+             <i class="fa fa-hand-o-right" id="nextButton2" style="color: blue; position:absolute; left: 741px; top: 518px; font-size: 35px; visibility: hidden;" onclick="navNext2()"></i>
+
+
+        </div>
+
+ 
+ <!-- Step 3 -->
+
+
+<div class="simsubscreen" id="canvas3" style="visibility:hidden; overflow: hidden;"> 
+
+
+<img src="images/bridge.png" style="position: absolute; left: 0px; top: 80px; height: 350px; width: 798px;"draggable="false">
+<span style="position: absolute; left: 95px; top:112px; color: ghostwhite; font-size: 18px;">SPAN-1</span>
+
+<span style="position: absolute; left: 274px; top:112px; color: ghostwhite; font-size: 18px;">SPAN-2</span>
+
+<span style="position: absolute; left: 455px; top:112px; color: ghostwhite; font-size: 18px;">SPAN-3</span>
+
+<span style="position: absolute; left: 643px; top:112px; color: ghostwhite; font-size: 18px;">SPAN-4</span>
+
+
+<!-- Yellow Wires -->
+<img src="images/w1.png" id="y_wr1" style="position: absolute; left: 120px; top: 260px; height: 220px; width: 610px;"draggable="false">
+
+<img src="images/w2.png" id="y_wr2" style="position: absolute; left: 300px; top: 260px; height: 220px; width: 440px;"draggable="false">
+
+<img src="images/w3.png" id="y_wr3" style="position: absolute; left: 480px; top: 260px; height: 220px; width: 280px;"draggable="false">
+
+<img src="images/w4.png" id="y_wr4" style="position: absolute; left: 670px; top: 260px; height: 220px; width: 100px;"draggable="false">
+
+
+<!-- Green Plates -->
+<img src="images/plategreen.png" id="g1" style="position: absolute; left: 100px; top: 140px; height: 120px;"draggable="false">
+
+<img src="images/plategreen.png" id="g2" style="position: absolute; left: 280px; top: 140px; height: 120px;"draggable="false">
+
+<img src="images/plategreen.png" id="g3" style="position: absolute; left: 460px; top: 140px; height: 120px;"draggable="false">
+
+<img src="images/plategreen.png" id="g4" style="position: absolute; left: 650px; top: 140px; height: 120px;"draggable="false">
+
+<!-- shm and btry -->
+
+
+
+<img src="images/battryfill.png" id="battryfill"style="
+    position: absolute;
+    left: 672px;
+    top: 445px;
+    height: 71px;
+    width: 109px;
+    visibility: ;"draggable="false">
+
+<img src="images/battry.png" style="
+    position: absolute;
+    left: 670px;
+    top: 432px;
+    height: 85px;
+    visibility: ;"draggable="false">
+
+<img src="images/bat1.png" style="
+    position: absolute;
+    left: 562px;
+    top: 433px;
+    height: 71px;
+    visibility: ;"draggable="false">
+
+    <img src="images/bat2.png" style="
+    position: absolute;
+    left: 566px;
+    top: 433px;
+    height: 72px;
+    visibility: ;"draggable="false">
+
+<img src="images/shm.png" style="
+    position: absolute;
+    left: 493px;
+    top: 440px;
+    height: 105px;
+    visibility: ;"draggable="false">
+
+<span style="position: absolute;
+    left: 15px;
+    top: 7px; font-weight: bold;"> <strong style="font-size: 16px;">Step-1:</strong> Click on any button below to take the signature of bridge in corresponding spans for undamaged condition.</span>
+ 
+ <input type="button" id="span1" style="
+    position: absolute;
+    left: 117px;
+    top: 35px;
+    width: 100px; 
+    cursor:pointer; 
+    font-size: 15px; background-color: #2150a0; padding-top: 5px; padding-bottom: 5px; color: #FFF;" value="&nbsp;Span-1&nbsp;" onclick="span1()"/>
+
+
+
+ <input type="button" id="span2" style="
+    position: absolute;
+    left: 275px;
+    top: 35px;
+    width: 100px; 
+    cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; padding-bottom: 5px; color: #FFF;" value="&nbsp;Span-2&nbsp;" onclick="span2()"/>
+
+
+ <input type="button" id="span3" style="
+    position: absolute;
+    left: 433px;
+    top: 35px;
+    width: 100px; 
+    cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; padding-bottom: 5px; color: #FFF;" value="&nbsp;Span-3&nbsp;" onclick="span3()"/>
+
+
+
+
+ <input type="button" id="span4" style="
+    position: absolute;
+    left: 591px;
+    top: 35px;
+    width: 100px; 
+    cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; padding-bottom: 5px; color: #FFF;" value="&nbsp;Span-4&nbsp;" onclick="span4()"/>
+
+
+
+        </div>
+           
+
+      <!-- Step 4 -->
+
+
+ <div class="simsubscreen" id="canvas4" style="visibility:hidden; overflow: hidden;"> 
+<!-- <span style="position: absolute;
+    left: 15px;
+    top: 20px;
+    font-weight: bold;"> <strong style="font-size: 16px;">Step-2:</strong> Enter the frequencies below (in kHz).</span>
+
+
+<span style="
+    position: absolute;
+    left: 312px;
+    top: 61px;
+    font-size: 15px;
+    background-color: #070707;
+    padding: 7px;
+    color: white;">Undamaged State ( Span-1 )</span>
+
+
+<label for="f1" style="position: absolute;
+    left: 50px;
+    top: 132px;
+    font-size: 15px;
+    font-weight: bold; ">First Frequency:</label>
+<input type="number" id="f1" name="f1" min="51" max="219" style="position: absolute;
+    left: 192px;
+    top: 131px;
+    width: 145px; ">
+
+
+<label for="f2" style="position: absolute;
+    left: 50px;
+    top: 182px;
+    font-size: 15px;
+    font-weight: bold; ">Second Frequency:</label>
+<input type="number" id="f2" min="51" max="219" name="f2" style="position: absolute;
+    left: 192px;
+    top: 178px;
+    width: 145px; ">
+
+<span style="position: absolute;
+    left: 392px;
+    top: 135px;
+    color: red;">[ Note: Frequency Range Between 50 to 220 kHz ]</span>
+
+ <input type="button" id="sbbtn_span1" style="
+    position: absolute;
+    left: 453px;
+    top: 170px;
+    width: 80px;
+    cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; padding-bottom: 5px; color: #FFF;" value="&nbsp;Submit&nbsp;" onclick="sbbtn_span1()"/>
+
+
+ <input type="button" id="reset_span1" style="
+   position: absolute;
+    left: 596px;
+    top: 170px;
+    width: 80px;
+    cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; padding-bottom: 5px; color: #FFF;" value="&nbsp;Reset&nbsp;" onclick="reset_span1()"/> -->
+
+
+     <input type="button" id="dwnld_span1" style="
+   position: absolute;
+  left: 315px;
+    top: 350px;
+    width: 123px;
+    cursor:pointer; font-size: 15px; background-color: #2150a0; visibility: ; padding-top: 5px; padding-bottom: 5px; color: #FFF;" value="&nbsp;Download Data&nbsp;" onclick="dwnld_span1()"/>
+
+<img src="images/lcr.png" id="lcr_span1" style="
+    position: absolute;
+   left: 260px;
+    top: 130px;
+    height: 160px;
+    visibility: ;"draggable="false">
+
+<img src="images/graph.png" id="graph_span1" style="
+    position: absolute;
+    left: 49px;
+    top: 257px;
+    height: 280px;
+    visibility: hidden;"draggable="false">
+
+<!--Blinking arrowcubox  -->
+ <span class="blink_me" id="arrow4" style="position:absolute; font-size: 30px; left: 702px; top: 516px; color: blue; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+<i class="fa fa-hand-o-right" id="nextButton4" style="color: blue; position:absolute; left: 741px; top: 518px; font-size: 35px; visibility: hidden;" onclick="navNext4()"></i>
+
+
+</div>    
+       
+
+<!-- Step 5 -->
+
+
+<div class="simsubscreen" id="canvas5" style="visibility:hidden; overflow: hidden;"> 
+
+
+<img src="images/bridge.png" style="position: absolute; left: 0px; top: 80px; height: 350px; width: 798px;"draggable="false">
+
+<span style="position: absolute; left: 95px; top:112px; color: ghostwhite; font-size: 18px;">SPAN-1</span>
+
+<span style="position: absolute; left: 274px; top:112px; color: ghostwhite; font-size: 18px;">SPAN-2</span>
+
+<span style="position: absolute; left: 455px; top:112px; color: ghostwhite; font-size: 18px;">SPAN-3</span>
+
+<span style="position: absolute; left: 643px; top:112px; color: ghostwhite; font-size: 18px;">SPAN-4</span>
+
+<!-- Yellow Wires -->
+<img src="images/w1.png" id="y_wr1" style="position: absolute; left: 120px; top: 260px; height: 220px; width: 610px;"draggable="false">
+
+<img src="images/w2.png" id="y_wr2" style="position: absolute; left: 300px; top: 260px; height: 220px; width: 440px;"draggable="false">
+
+<img src="images/w3.png" id="y_wr3" style="position: absolute; left: 480px; top: 260px; height: 220px; width: 280px;"draggable="false">
+
+<img src="images/w4.png" id="y_wr4" style="position: absolute; left: 670px; top: 260px; height: 220px; width: 100px;"draggable="false">
+
+
+<!-- Green Plates -->
+<img src="images/plategreen.png" id="g1" style="position: absolute; left: 100px; top: 140px; height: 120px;"draggable="false">
+
+<img src="images/plategreen.png" id="g2" style="position: absolute; left: 280px; top: 140px; height: 120px;"draggable="false">
+
+<img src="images/plategreen.png" id="g3" style="position: absolute; left: 460px; top: 140px; height: 120px;"draggable="false">
+
+<img src="images/plategreen.png" id="g4" style="position: absolute; left: 650px; top: 140px; height: 120px;"draggable="false">
+
+<!-- shm and btry -->
+
+
+
+<img src="images/battryfill.png" id="battryfill"style="
+    position: absolute;
+    left: 672px;
+    top: 445px;
+    height: 71px;
+    width: 109px;
+    visibility: ;"draggable="false">
+
+<img src="images/battry.png" style="
+    position: absolute;
+    left: 670px;
+    top: 432px;
+    height: 85px;
+    visibility: ;"draggable="false">
+
+<img src="images/bat1.png" style="
+    position: absolute;
+    left: 562px;
+    top: 433px;
+    height: 71px;
+    visibility: ;"draggable="false">
+
+    <img src="images/bat2.png" style="
+    position: absolute;
+    left: 566px;
+    top: 433px;
+    height: 72px;
+    visibility: ;"draggable="false">
+
+    <img src="images/green1.png" style="
+    position: absolute;
+    left: 113px;
+    top: 260px;
+    height: 210px;
+    visibility:;"draggable="false">
+
+    <img src="images/shm.png" style="
+    position: absolute;
+    left: 493px;
+    top: 440px;
+    height: 105px;
+    visibility: ;"draggable="false">
+
+<span style="position: absolute;
+    left: 15px;
+    top: 20px;
+    font-weight: bold;"> <strong style="font-size: 16px;">Step-3:</strong> Click on Induce Damage button to show damage on the bridge.</span>
+ 
+ <input type="button" id="inducedamage_span1" style="
+    position: absolute;
+    left: 610px;
+    top: 14px;
+    width: 126px;
+    cursor:pointer; 
+    font-size: 15px; background-color: #2150a0; padding-top: 5px; padding-bottom: 5px; color: #FFF;" value="&nbsp;Induce Damage&nbsp;" onclick="inducedamage_span1()"/>
+
+<img src="images/crack.png" id="crack_span1" style="
+    position: absolute;
+    left: 0px;
+    top: 91px;
+    height: 220px;
+    visibility: hidden;"draggable="false">
+
+    <!--Blinking arrowcubox  -->
+ <span class="blink_me" id="arrow5" style="position:absolute; font-size: 30px; left: 702px; top: 516px; color: blue; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+<i class="fa fa-hand-o-right" id="nextButton5" style="color: blue; position:absolute; left: 741px; top: 518px; font-size: 35px; visibility: hidden;" onclick="navNext5()"></i>
+
+ </div>
+
+<!-- //////////////////////////////////////////////damaged span1///////////////////////////////// -->
+
+
+<!-- Step 6 -->
+
+
+ <div class="simsubscreen" id="canvas6" style="visibility:hidden; overflow: hidden;"> 
+<!-- <span style="position: absolute;
+    left: 15px;
+    top: 20px;
+    font-weight: bold;"> <strong style="font-size: 16px;">Step-4:</strong> Enter the frequencies below (in kHz).</span>
+
+
+<span style="
+    position: absolute;
+    left: 312px;
+    top: 61px;
+    font-size: 15px;
+    background-color: #070707;
+    padding: 7px;
+    color: white;">Damaged State ( Span-1 )</span>
+
+
+<label for="f1_damaged" style="position: absolute;
+    left: 50px;
+    top: 132px;
+    font-size: 15px;
+    font-weight: bold; ">First Frequency:</label>
+<input type="number" id="f1_damaged" min="51" max="219" name="f1_damaged" style="position: absolute;
+    left: 192px;
+    top: 131px;
+    width: 145px; ">
+
+
+<label for="f2_damaged" style="position: absolute;
+    left: 50px;
+    top: 182px;
+    font-size: 15px;
+    font-weight: bold; ">Second Frequency:</label>
+
+<input type="number" id="f2_damaged" min="51" max="219" name="f2_damaged" style="position: absolute;
+    left: 192px;
+    top: 178px;
+    width: 145px; ">
+
+<span style="position: absolute;
+    left: 392px;
+    top: 135px;
+    color: red;">[ Note: Frequency Range Between 50 to 220 kHz ]</span>
+
+ <input type="button" id="sbbtn_span1_damaged" style="
+    position: absolute;
+    left: 453px;
+    top: 170px;
+    width: 80px;
+    cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; padding-bottom: 5px; color: #FFF;" value="&nbsp;Submit&nbsp;" onclick="sbbtn_span1_damaged()"/>
+
+
+ <input type="button" id="reset_span1_damaged" style="
+   position: absolute;
+    left: 596px;
+    top: 170px;
+    width: 80px;
+    cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; padding-bottom: 5px; color: #FFF;" value="&nbsp;Reset&nbsp;" onclick="reset_span1_damaged()"/> -->
+
+
+   <input type="button" id="dwnld_span1_damaged" style="
+   position: absolute;
+  left: 315px;
+    top: 350px;
+   width: 123px;
+   cursor:pointer; font-size: 15px; background-color: #2150a0; visibility: ; padding-top: 5px; padding-bottom: 5px; color: #FFF;" value="&nbsp;Download Data&nbsp;" onclick="dwnld_span1_damaged()"/>
+
+<img src="images/lcr.png" id="lcr_span1_damaged" style="
+    position: absolute;
+   left: 260px;
+    top: 130px;
+    height: 160px;
+    visibility: ;"draggable="false">
+
+
+<img src="images/graph.png" id="graph_damage_span1" style="
+    position: absolute;
+    left: 49px;
+    top: 257px;
+    height: 280px;
+    visibility: hidden;"draggable="false">
+
+
+<!--Blinking arrowcubox  -->
+ <span class="blink_me" id="arrow6" style="position:absolute; font-size: 30px; left: 702px; top: 516px; color: blue; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+<i class="fa fa-hand-o-right" id="nextButton6" style="color: blue; position:absolute; left: 741px; top: 518px; font-size: 35px; visibility: hidden;" onclick="navNext6()"></i>
+
+
+</div>    
+
+<!-- Step 1a -->
+
+<div class="simsubscreen" id="canvas1a" style="visibility:hidden; overflow: hidden;"> 
+
+
+
+<img src="images/bridge.png" style="position: absolute; left: 0px; top: 80px; height: 350px; width: 798px;"draggable="false">
+
+<span style="position: absolute; left: 95px; top:112px; color: ghostwhite; font-size: 18px;">SPAN-1</span>
+
+<span style="position: absolute; left: 274px; top:112px; color: ghostwhite; font-size: 18px;">SPAN-2</span>
+
+<span style="position: absolute; left: 455px; top:112px; color: ghostwhite; font-size: 18px;">SPAN-3</span>
+
+<span style="position: absolute; left: 643px; top:112px; color: ghostwhite; font-size: 18px;">SPAN-4</span>
+
+
+<!-- Sensors top -->
+
+  <img src="images/sesors.png"style="position: absolute; left: 0px; top: 80px; height: 28px;"draggable="false">
+ 
+
+<!-- /////////////////////////////////////////////////////////////////////////// -->
+    <img src="images/sansorred.png" id="red1"  style="position: absolute; left: 0px; top: 80px;
+    height: 28px;"draggable="false">
+
+    <img src="images/sansorred.png" id="red2"  style="position: absolute; left: 46px; top: 80px;
+    height: 28px;"draggable="false">
+
+    <img src="images/sansorred.png" id="red3"  style="position: absolute; left: 92px; top: 80px;
+    height: 28px;"draggable="false">
+
+    <img src="images/sansorred.png"  id="red4" style="position: absolute; left: 138px; top: 80px;
+    height: 28px;"draggable="false">
+
+    <img src="images/sansorred.png"  id="red5" style="position: absolute; left: 183px; top: 80px;
+    height: 28px;"draggable="false">
+
+    
+
+
+<!-- Sensors bottom -->
+    <img src="images/sansorred.png" id="red_btm1" style="position: absolute; left: 0px; top: 278px;
+    height: 28px;"draggable="false">
+
+    <img src="images/sansorred.png" id="red_btm2" style="position: absolute; left: 46px; top: 278px;
+    height: 28px;"draggable="false">
+
+    <img src="images/sansorred.png" id="red_btm3" style="position: absolute; left: 92px; top: 278px;
+    height: 28px;"draggable="false">
+
+    <img src="images/sansorred.png" id="red_btm4" style="position: absolute; left: 138px; top: 278px;
+    height: 28px;"draggable="false">
+
+    <img src="images/sansorred.png" id="red_btm5" style="position: absolute; left: 183px; top: 278px;
+    height: 28px;"draggable="false">
+
+  
+<img src="images/green1.png" id="green1" style="
+    position: absolute;
+    left: 113px;
+    top: 260px;
+    height: 210px;
+    visibility:hidden;"draggable="false">
+
+    <img src="images/red1.png" id="red1_wire" style="
+    position: absolute;
+    left: 113px;
+    top: 259px;
+    height: 210px;
+    visibility:;"draggable="false">
+
+<!-- Yellow Wires -->
+<img src="images/w1.png" id="y_wr1_canvas1a" style="position: absolute; left: 120px; top: 260px; height: 220px; width: 610px;"draggable="false">
+
+<img src="images/w2.png" id="y_wr2_canvas1a" style="position: absolute; left: 300px; top: 260px; height: 220px; width: 440px;"draggable="false">
+
+<img src="images/w3.png" id="y_wr3_canvas1a" style="position: absolute; left: 480px; top: 260px; height: 220px; width: 280px;"draggable="false">
+
+<img src="images/w4.png" id="y_wr4_canvas1a" style="position: absolute; left: 670px; top: 260px; height: 220px; width: 100px;"draggable="false">
+<!-- Green Plates -->
+
+<img src="images/plategreen.png" style="position: absolute; left: 100px; top: 140px; height: 120px;"draggable="false">
+
+<img src="images/plategreen.png" style="position: absolute; left: 280px; top: 140px; height: 120px;"draggable="false">
+
+<img src="images/plategreen.png"  style="position: absolute; left: 460px; top: 140px; height: 120px;"draggable="false">
+
+<img src="images/plategreen.png"  style="position: absolute; left: 650px; top: 140px; height: 120px;"draggable="false">
+<!-- shm and btry -->
+
+
+   <img src="images/ss.jpg" style="
+    position: absolute;
+    left: 670px;
+    top: 442px;
+    height: 75px;
+    width:112px;
+    border: 1px solid black;
+    visibility: ;"draggable="false">
+
+<img src="images/battryfill.png" id="battryfill_canvas1a"style="
+    position: absolute;
+    left: 672px;
+    top: 445px;
+    height: 71px;
+    width: 109px;
+    visibility: ;"draggable="false">
+
+<img src="images/battry.png" style="
+    position: absolute;
+    left: 670px;
+    top: 432px;
+    height: 85px;
+    visibility: ;"draggable="false">
+
+  <img src="images/bat1.png" style="
+    position: absolute;
+    left: 562px;
+    top: 433px;
+    height: 71px;
+    visibility: ;"draggable="false">
+
+    <img src="images/bat2.png" style="
+    position: absolute;
+    left: 566px;
+    top: 433px;
+    height: 72px;
+    visibility: ;"draggable="false">
+
+<img src="images/shm.png" style="
+    position: absolute;
+    left: 493px;
+    top: 440px;
+    height: 105px;
+    visibility: ;"draggable="false">
+
+ <img src="images/crack.png" id="crack_span1_canvas1a" style="
+    position: absolute;
+    left: 0px;
+    top: 91px;
+    height: 220px;
+    "draggable="false">
+
+<span id="restrt_link" style="position: absolute; 
+    left: 320px;
+    top: 522px;
+    color: blue;visibility: hidden;" onclick="//restrt_btn()"><a href="../index.html"><u>Click here to Restart</u></a></span>
+
+<i class="fa fa-hand-o-right blink_me" id="a2" style="color: #0433b1;
+    position: absolute;
+    left: 286px;
+    top: 519px;
+    font-size: 25px;
+    visibility: hidden;"></i>
+
+</div>
+
+
+
+
+<!-- Step 8 -->
+
+
+        <div class="simsubscreen" id="canvas8" style="visibility:hidden; overflow: hidden;"> 
+<!-- <span style="position: absolute;
+    left: 15px;
+    top: 20px;
+    font-weight: bold;"> <strong style="font-size: 16px;">Step-2:</strong> Enter the frequencies below (in kHz).</span>
+
+
+<span style="
+    position: absolute;
+    left: 312px;
+    top: 61px;
+    font-size: 15px;
+    background-color: #070707;
+    padding: 7px;
+    color: white;">Undamaged State ( Span-2 )</span>
+
+
+<label for="f1_span2" style="position: absolute;
+    left: 50px;
+    top: 132px;
+    font-size: 15px;
+    font-weight: bold; ">First Frequency:</label>
+<input type="number" id="f1_span2" name="f1_span2" min="2" max="249" style="position: absolute;
+    left: 192px;
+    top: 131px;
+    width: 145px; ">
+
+
+<label for="f2_span2" style="position: absolute;
+    left: 50px;
+    top: 182px;
+    font-size: 15px;
+    font-weight: bold; ">Second Frequency:</label>
+
+<input type="number" id="f2_span2" min="2" max="249" name="f2_span2" style="position: absolute;
+    left: 192px;
+    top: 178px;
+    width: 145px;">
+
+<span style="position: absolute;
+    left: 392px;
+    top: 135px;
+    color: red;">[ Note: Frequency Range Between 1 to 250 kHz ]</span>
+
+ <input type="button" id="sbbtn_span2" style="
+    position: absolute;
+    left: 453px;
+    top: 170px;
+    width: 80px;
+    cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; padding-bottom: 5px; color: #FFF;" value="&nbsp;Submit&nbsp;" onclick="sbbtn_span2()"/>
+
+
+ <input type="button" id="reset_span2" style="
+   position: absolute;
+    left: 596px;
+    top: 170px;
+    width: 80px;
+    cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; padding-bottom: 5px; color: #FFF;" value="&nbsp;Reset&nbsp;" onclick="reset_span2()"/> -->
+
+
+     <input type="button" id="dwnld_span2" style="
+   position: absolute;
+  left: 315px;
+    top: 350px;
+    width: 123px;
+    cursor:pointer; font-size: 15px; background-color: #2150a0; visibility: ; padding-top: 5px; padding-bottom: 5px; color: #FFF;" value="&nbsp;Download Data&nbsp;" onclick="dwnld_span2()"/>
+
+<img src="images/lcr.png" id="lcr_span2" style="
+    position: absolute;
+    left: 260px;
+    top: 130px;
+    height: 160px;
+    visibility: ;"draggable="false">
+
+<img src="images/graph.png" id="graph_span2" style="
+    position: absolute;
+    left: 49px;
+    top: 257px;
+    height: 280px;
+    visibility: hidden;"draggable="false">
+
+<!--Blinking arrowcubox  -->
+ <span class="blink_me" id="arrow8" style="position:absolute; font-size: 30px; left: 702px; top: 516px; color: blue; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+<i class="fa fa-hand-o-right" id="nextButton8" style="color: blue; position:absolute; left: 741px; top: 518px; font-size: 35px; visibility: hidden;" onclick="navNext8()"></i>
+
+
+</div>    
+
+
+<!-- Step 9 -->
+
+
+ <div class="simsubscreen" id="canvas9" style="visibility:hidden; overflow: hidden;"> 
+
+
+<img src="images/bridge.png" style="position: absolute; left: 0px; top: 80px; height: 350px; width: 798px;"draggable="false">
+
+<span style="position: absolute; left: 95px; top:112px; color: ghostwhite; font-size: 18px;">SPAN-1</span>
+
+<span style="position: absolute; left: 274px; top:112px; color: ghostwhite; font-size: 18px;">SPAN-2</span>
+
+<span style="position: absolute; left: 455px; top:112px; color: ghostwhite; font-size: 18px;">SPAN-3</span>
+
+<span style="position: absolute; left: 643px; top:112px; color: ghostwhite; font-size: 18px;">SPAN-4</span>
+
+
+<!-- Yellow Wires -->
+<img src="images/w1.png"  style="position: absolute; left: 120px; top: 260px; height: 220px; width: 610px;"draggable="false">
+
+<img src="images/w2.png"  style="position: absolute; left: 300px; top: 260px; height: 220px; width: 440px;"draggable="false">
+
+<img src="images/w3.png"  style="position: absolute; left: 480px; top: 260px; height: 220px; width: 280px;"draggable="false">
+
+<img src="images/w4.png"  style="position: absolute; left: 670px; top: 260px; height: 220px; width: 100px;"draggable="false">
+
+<!-- Green Plates -->
+<img src="images/plategreen.png"  style="position: absolute; left: 100px; top: 140px; height: 120px;"draggable="false">
+
+<img src="images/plategreen.png"  style="position: absolute; left: 280px; top: 140px; height: 120px;"draggable="false">
+
+<img src="images/plategreen.png"  style="position: absolute; left: 460px; top: 140px; height: 120px;"draggable="false">
+
+<img src="images/plategreen.png"  style="position: absolute; left: 650px; top: 140px; height: 120px;"draggable="false">
+
+<!-- shm and btry -->
+
+<img src="images/green2.png"  style="
+    position: absolute;
+    left: 293px;
+    top: 260px;
+    height: 210px;
+    visibility:;"draggable="false">
+
+
+
+<img src="images/battryfill.png" id="battryfill"style="
+    position: absolute;
+    left: 672px;
+    top: 445px;
+    height: 71px;
+    width: 109px;
+    visibility: ;"draggable="false">
+
+<img src="images/battry.png" style="
+    position: absolute;
+    left: 670px;
+    top: 432px;
+    height: 85px;
+    visibility: ;"draggable="false">
+
+    <img src="images/bat1.png" style="
+    position: absolute;
+    left: 562px;
+    top: 433px;
+    height: 71px;
+    visibility: ;"draggable="false">
+
+    <img src="images/bat2.png" style="
+    position: absolute;
+    left: 566px;
+    top: 433px;
+    height: 72px;
+    visibility: ;"draggable="false">
+
+    <img src="images/shm.png" style="
+    position: absolute;
+    left: 493px;
+    top: 440px;
+    height: 105px;
+    visibility: ;"draggable="false">
+
+
+   <img src="images/crack.png" id="crack_span2" style="
+    position: absolute;
+    left: 178px;
+    top: 91px;
+    height: 220px;
+    visibility: hidden;"draggable="false">
+
+<span style="position: absolute;
+    left: 15px;
+    top: 20px;
+    font-weight: bold;"> <strong style="font-size: 16px;">Step-3:</strong> Click on Induce Damage button to show damage on the bridge.</span>
+ 
+ <input type="button" id="inducedamage_span2" style="
+    position: absolute;
+    left: 610px;
+    top: 14px;
+    width: 126px;
+    cursor:pointer; 
+    font-size: 15px; background-color: #2150a0; padding-top: 5px; padding-bottom: 5px; color: #FFF;" value="&nbsp;Induce Damage&nbsp;" onclick="inducedamage_span2()"/>
+
+
+
+<!--Blinking arrowcubox  -->
+ <span class="blink_me" id="arrow9" style="position:absolute; font-size: 30px; left: 702px; top: 516px; color: blue; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+<i class="fa fa-hand-o-right" id="nextButton9" style="color: blue; position:absolute; left: 741px; top: 518px; font-size: 35px; visibility: hidden;" onclick="navNext9()"></i>
+
+</div>
+
+<!-- //////////////////////////////////////////////damaged span2///////////////////////////////// -->
+
+
+<!-- Step 10 -->
+
+
+<div class="simsubscreen" id="canvas10" style="visibility:hidden; overflow: hidden;"> 
+<!-- <span style="position: absolute;
+    left: 15px;
+    top: 20px;
+    font-weight: bold;"> <strong style="font-size: 16px;">Step-4:</strong> Enter the frequencies below (in kHz).</span>
+
+
+<span style="
+    position: absolute;
+    left: 312px;
+    top: 61px;
+    font-size: 15px;
+    background-color: #070707;
+    padding: 7px;
+    color: white;">Damaged State ( Span-2 )</span>
+
+
+<label for="f1_span2_damaged" style="position: absolute;
+    left: 50px;
+    top: 132px;
+    font-size: 15px;
+    font-weight: bold; ">First Frequency:</label>
+
+<input type="number" id="f1_span2_damaged" min="2" max="249" name="f1_damaged" style="position: absolute;
+    left: 192px;
+    top: 131px;
+    width: 145px; ">
+
+
+<label for="f2_span2_damaged" style="position: absolute;
+    left: 50px;
+    top: 182px;
+    font-size: 15px;
+    font-weight: bold; ">Second Frequency:</label>
+
+<input type="number" id="f2_span2_damaged" min="2" max="249" name="f2_span2_damaged" style="position: absolute;
+    left: 192px;
+    top: 178px;
+    width: 145px; ">
+
+<span style="position: absolute;
+    left: 392px;
+    top: 135px;
+    color: red;">[ Note: Frequency Range Between 1 to 250 kHz ]</span>
+
+ <input type="button" id="sbbtn_span2_damaged" style="
+    position: absolute;
+    left: 453px;
+    top: 170px;
+    width: 80px;
+    cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; padding-bottom: 5px; color: #FFF;" value="&nbsp;Submit&nbsp;" onclick="sbbtn_span2_damaged()"/>
+
+
+ <input type="button" id="reset_span2_damaged" style="
+   position: absolute;
+    left: 596px;
+    top: 170px;
+    width: 80px;
+    cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; padding-bottom: 5px; color: #FFF;" value="&nbsp;Reset&nbsp;" onclick="reset_span2_damaged()"/> -->
+
+
+     <input type="button" id="dwnld_span2_damaged" style="
+   position: absolute;
+    left: 315px;
+    top: 350px;
+    width: 123px;
+    cursor:pointer; font-size: 15px; background-color: #2150a0; visibility: ; padding-top: 5px; padding-bottom: 5px; color: #FFF;" value="&nbsp;Download Data&nbsp;" onclick="dwnld_span2_damaged()"/>
+
+<img src="images/lcr.png" id="lcr_span2_damaged" style="
+    position: absolute;
+    left: 260px;
+    top: 130px;
+    height: 160px;
+    visibility: ;"draggable="false">
+
+<img src="images/graph.png" id="graph_damage_span2" style="
+    position: absolute;
+    left: 49px;
+    top: 257px;
+    height: 280px;
+    visibility: hidden;"draggable="false">
+
+
+
+<!--Blinking arrowcubox  -->
+ <span class="blink_me" id="arrow10" style="position:absolute; font-size: 30px; left: 702px; top: 516px; color: blue; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+<i class="fa fa-hand-o-right" id="nextButton10" style="color: blue; position:absolute; left: 741px; top: 518px; font-size: 35px; visibility: hidden;" onclick="navNext10()"></i>
+
+
+</div>    
+
+ <!-- Step 2a -->
+
+<div class="simsubscreen" id="canvas2a" style="visibility:hidden; overflow: hidden;"> 
+
+
+
+<img src="images/bridge.png" style="position: absolute; left: 0px; top: 80px; height: 350px; width: 798px;"draggable="false">
+
+<span style="position: absolute; left: 95px; top:112px; color: ghostwhite; font-size: 18px;">SPAN-1</span>
+
+<span style="position: absolute; left: 274px; top:112px; color: ghostwhite; font-size: 18px;">SPAN-2</span>
+
+<span style="position: absolute; left: 455px; top:112px; color: ghostwhite; font-size: 18px;">SPAN-3</span>
+
+<span style="position: absolute; left: 643px; top:112px; color: ghostwhite; font-size: 18px;">SPAN-4</span>
+
+<!-- Sensors top -->
+
+  <img src="images/sesors.png"style="position: absolute; left: 0px; top: 80px; height: 28px;"draggable="false">
+ 
+
+<!-- /////////////////////////////////////////////////////////////////////////// -->
+ 
+
+    <img src="images/sansorred.png" id="red6" style="position: absolute; left: 229px; top: 80px;
+    height: 28px;"draggable="false">
+
+    <img src="images/sansorred.png" id="red7" style="position: absolute; left: 275px; top: 80px;
+    height: 28px;"draggable="false">
+
+    <img src="images/sansorred.png" id="red8" style="position: absolute; left: 321px; top: 80px;
+    height: 28px;"draggable="false">
+
+    <img src="images/sansorred.png" id="red9" style="position: absolute; left: 367px; top: 80px;
+    height: 28px;"draggable="false">
+
+    <img src="images/sansorred.png" id="red10" style="position: absolute; left: 412px; top: 80px;
+    height: 28px;"draggable="false">
+
+
+
+<!-- Sensors bottom -->
+
+
+     <img src="images/sansorred.png" id="red_btm6" style="position: absolute; left: 229px; top: 278px;
+    height: 28px;"draggable="false">
+
+    <img src="images/sansorred.png" id="red_btm7" style="position: absolute; left: 275px; top: 278px;
+    height: 28px;"draggable="false">
+
+    <img src="images/sansorred.png" id="red_btm8" style="position: absolute; left: 321px; top: 278px;
+    height: 28px;"draggable="false">
+
+    <img src="images/sansorred.png" id="red_btm9" style="position: absolute; left: 367px; top: 278px;
+    height: 28px;"draggable="false">
+
+    <img src="images/sansorred.png" id="red_btm10" style="position: absolute; left: 412px; top: 278px;
+    height: 28px;"draggable="false">
+
+<img src="images/green2.png" id="green2" style="
+    position: absolute;
+    left: 293px;
+    top: 260px;
+    height: 210px;
+    visibility:;"draggable="false">
+
+
+    <img src="images/red2.png" id="red2_wire" style="
+    position: absolute;
+    left: 293px;
+    top: 259px;
+    height: 210px;
+    visibility:;"draggable="false">
+
+<!-- Yellow Wires -->
+<img src="images/w1.png" id="y_wr1_canvas1a" style="position: absolute; left: 120px; top: 260px; height: 220px; width: 610px;"draggable="false">
+
+<img src="images/w2.png" id="y_wr2_canvas1a" style="position: absolute; left: 300px; top: 260px; height: 220px; width: 440px;"draggable="false">
+
+<img src="images/w3.png" id="y_wr3_canvas1a" style="position: absolute; left: 480px; top: 260px; height: 220px; width: 280px;"draggable="false">
+
+<img src="images/w4.png" id="y_wr4_canvas1a" style="position: absolute; left: 670px; top: 260px; height: 220px; width: 100px;"draggable="false">
+
+<!-- Green Plates -->
+<img src="images/plategreen.png" style="position: absolute; left: 100px; top: 140px; height: 120px;"draggable="false">
+
+<img src="images/plategreen.png" style="position: absolute; left: 280px; top: 140px; height: 120px;"draggable="false">
+
+<img src="images/plategreen.png"  style="position: absolute; left: 460px; top: 140px; height: 120px;"draggable="false">
+
+<img src="images/plategreen.png"  style="position: absolute; left: 650px; top: 140px; height: 120px;"draggable="false">
+<!-- shm and btry -->
+
+
+   <img src="images/ss.jpg" style="
+    position: absolute;
+    left: 670px;
+    top: 442px;
+    height: 75px;
+    width:112px;
+    border: 1px solid black;
+    visibility: ;"draggable="false">
+
+<img src="images/battryfill.png" id="battryfill_canvas2a"style="
+    position: absolute;
+    left: 672px;
+    top: 445px;
+    height: 71px;
+    width: 109px;
+    visibility: ;"draggable="false">
+
+<img src="images/battry.png" style="
+    position: absolute;
+    left: 670px;
+    top: 432px;
+    height: 85px;
+    visibility: ;"draggable="false">
+
+  <img src="images/bat1.png" style="
+    position: absolute;
+    left: 562px;
+    top: 433px;
+    height: 71px;
+    visibility: ;"draggable="false">
+
+    <img src="images/bat2.png" style="
+    position: absolute;
+    left: 566px;
+    top: 433px;
+    height: 72px;
+    visibility: ;"draggable="false">
+
+<img src="images/shm.png" style="
+    position: absolute;
+    left: 493px;
+    top: 440px;
+    height: 105px;
+    visibility: ;"draggable="false">
+
+ <img src="images/crack.png" id="crack_span2_canvas2a" style="
+    position: absolute;
+    left: 178px;
+    top: 91px;
+    height: 220px;
+    "draggable="false">
+
+<span id="restrt_link2" style="position: absolute; 
+    left: 320px;
+    top: 522px;
+    color: blue;visibility: hidden;"onclick="//restrt_btn()"><a href="../index.html"><u>Click here to Restart</u></a></span>
+
+<i class="fa fa-hand-o-right blink_me" id="a2_span2" style="color: #0433b1;
+    position: absolute;
+    left: 286px;
+    top: 519px;
+    font-size: 25px;
+    visibility: hidden;"></i>
+
+</div>
+<!-- Step 12 -->
+
+
+<div class="simsubscreen" id="canvas12" style="visibility:hidden; overflow: hidden;"> 
+<!-- <span style="position: absolute;
+    left: 15px;
+    top: 20px;
+    font-weight: bold;"> <strong style="font-size: 16px;">Step-2:</strong> Enter the frequencies below (in kHz).</span>
+
+
+<span style="
+    position: absolute;
+    left: 312px;
+    top: 61px;
+    font-size: 15px;
+    background-color: #070707;
+    padding: 7px;
+    color: white;">Undamaged State ( Span-3 )</span>
+
+
+<label for="f1_span3" style="position: absolute;
+    left: 50px;
+    top: 132px;
+    font-size: 15px;
+    font-weight: bold; ">First Frequency:</label>
+<input type="number" id="f1_span3" name="f1_span3" min="2" max="249" style="position: absolute;
+    left: 192px;
+    top: 131px;
+    width: 145px; ">
+
+
+<label for="f2_span3" style="position: absolute;
+    left: 50px;
+    top: 182px;
+    font-size: 15px;
+    font-weight: bold; ">Second Frequency:</label>
+
+<input type="number" id="f2_span3" min="2" max="249" name="f2_span3" style="position: absolute;
+    left: 192px;
+    top: 178px;
+    width: 145px;">
+
+<span style="position: absolute;
+    left: 392px;
+    top: 135px;
+    color: red;">[ Note: Frequency Range Between 1 to 250 kHz ]</span>
+
+ <input type="button" id="sbbtn_span3" style="
+    position: absolute;
+    left: 453px;
+    top: 170px;
+    width: 80px;
+    cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; padding-bottom: 5px; color: #FFF;" value="&nbsp;Submit&nbsp;" onclick="sbbtn_span3()"/>
+
+
+ <input type="button" id="reset_span3" style="
+   position: absolute;
+    left: 596px;
+    top: 170px;
+    width: 80px;
+    cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; padding-bottom: 5px; color: #FFF;" value="&nbsp;Reset&nbsp;" onclick="reset_span3()"/> -->
+
+
+     <input type="button" id="dwnld_span3" style="
+   position: absolute;
+    left: 315px;
+    top: 350px;
+    width: 123px;
+    cursor:pointer; font-size: 15px; background-color: #2150a0; visibility: ; padding-top: 5px; padding-bottom: 5px; color: #FFF;" value="&nbsp;Download Data&nbsp;" onclick="dwnld_span3()"/>
+
+<img src="images/lcr.png" id="lcr_span3" style="
+    position: absolute;
+   left: 260px;
+    top: 130px;
+    height: 160px;
+    visibility: ;"draggable="false">
+
+<img src="images/graph.png" id="graph_span3" style="
+    position: absolute;
+    left: 49px;
+    top: 257px;
+    height: 280px;
+    visibility: hidden;"draggable="false">
+
+<!--Blinking arrowcubox  -->
+ <span class="blink_me" id="arrow12" style="position:absolute; font-size: 30px; left: 702px; top: 516px; color: blue; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+<i class="fa fa-hand-o-right" id="nextButton12" style="color: blue; position:absolute; left: 741px; top: 518px; font-size: 35px; visibility: hidden;" onclick="navNext12()"></i>
+
+
+</div>    
+
+
+<!-- Step 13 -->
+
+
+ <div class="simsubscreen" id="canvas13" style="visibility:hidden; overflow: hidden;"> 
+
+
+<img src="images/bridge.png" style="position: absolute; left: 0px; top: 80px; height: 350px; width: 798px;"draggable="false">
+
+<span style="position: absolute; left: 95px; top:112px; color: ghostwhite; font-size: 18px;">SPAN-1</span>
+
+<span style="position: absolute; left: 274px; top:112px; color: ghostwhite; font-size: 18px;">SPAN-2</span>
+
+<span style="position: absolute; left: 455px; top:112px; color: ghostwhite; font-size: 18px;">SPAN-3</span>
+
+<span style="position: absolute; left: 643px; top:112px; color: ghostwhite; font-size: 18px;">SPAN-4</span>
+
+<!-- Yellow Wires -->
+<img src="images/w1.png"  style="position: absolute; left: 120px; top: 260px; height: 220px; width: 610px;"draggable="false">
+
+<img src="images/w2.png"  style="position: absolute; left: 300px; top: 260px; height: 220px; width: 440px;"draggable="false">
+
+<img src="images/w3.png"  style="position: absolute; left: 480px; top: 260px; height: 220px; width: 280px;"draggable="false">
+
+<img src="images/w4.png"  style="position: absolute; left: 670px; top: 260px; height: 220px; width: 100px;"draggable="false">
+
+<!-- Green Plates -->
+<img src="images/plategreen.png"  style="position: absolute; left: 100px; top: 140px; height: 120px;"draggable="false">
+
+<img src="images/plategreen.png"  style="position: absolute; left: 280px; top: 140px; height: 120px;"draggable="false">
+
+<img src="images/plategreen.png"  style="position: absolute; left: 460px; top: 140px; height: 120px;"draggable="false">
+
+<img src="images/plategreen.png"  style="position: absolute; left: 650px; top: 140px; height: 120px;"draggable="false">
+
+<!-- shm and btry -->
+
+
+
+<img src="images/battryfill.png" id="battryfill"style="
+    position: absolute;
+    left: 672px;
+    top: 445px;
+    height: 71px;
+    width: 109px;
+    visibility: ;"draggable="false">
+
+<img src="images/battry.png" style="
+    position: absolute;
+    left: 670px;
+    top: 432px;
+    height: 85px;
+    visibility: ;"draggable="false">
+
+    <img src="images/bat1.png" style="
+    position: absolute;
+    left: 562px;
+    top: 433px;
+    height: 71px;
+    visibility: ;"draggable="false">
+
+    <img src="images/bat2.png" style="
+    position: absolute;
+    left: 566px;
+    top: 433px;
+    height: 72px;
+    visibility: ;"draggable="false">
+
+    <img src="images/green3.png" id="green3" style="
+    position: absolute;
+    left: 470px;
+    top: 260px;
+    height: 210px;
+    visibility:;"draggable="false">
+
+    <img src="images/shm.png" style="
+    position: absolute;
+    left: 493px;
+    top: 440px;
+    height: 105px;
+    visibility: ;"draggable="false">
+
+ <img src="images/crack.png" id="crack_span3" style="
+    position: absolute;
+    left: 360px;
+    top: 91px;
+    height: 220px;
+    visibility: hidden;"draggable="false">
+
+<span style="position: absolute;
+    left: 15px;
+    top: 20px;
+    font-weight: bold;"> <strong style="font-size: 16px;">Step-3:</strong> Click on Induce Damage button to show damage on the bridge.</span>
+ 
+ <input type="button" id="inducedamage_span3" style="
+    position: absolute;
+    left: 610px;
+    top: 14px;
+    width: 126px;
+    cursor:pointer; 
+    font-size: 15px; background-color: #2150a0; padding-top: 5px; padding-bottom: 5px; color: #FFF;" value="&nbsp;Induce Damage&nbsp;" onclick="inducedamage_span3()"/>
+
+
+
+<!--Blinking arrowcubox  -->
+ <span class="blink_me" id="arrow13" style="position:absolute; font-size: 30px; left: 702px; top: 516px; color: blue; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+<i class="fa fa-hand-o-right" id="nextButton13" style="color: blue; position:absolute; left: 741px; top: 518px; font-size: 35px; visibility: hidden;" onclick="navNext13()"></i>
+
+</div>
+
+<!-- //////////////////////////////////////////////damaged span3///////////////////////////////// -->
+
+
+<!-- Step 14 -->
+
+
+ <div class="simsubscreen" id="canvas14" style="visibility:hidden; overflow: hidden;"> 
+<!-- <span style="position: absolute;
+    left: 15px;
+    top: 20px;
+    font-weight: bold;"> <strong style="font-size: 16px;">Step-4:</strong> Enter the frequencies below (in kHz).</span>
+
+
+<span style="
+    position: absolute;
+    left: 312px;
+    top: 61px;
+    font-size: 15px;
+    background-color: #070707;
+    padding: 7px;
+    color: white;">Damaged State ( Span-3 )</span>
+
+
+<label for="f1_span3_damaged" style="position: absolute;
+    left: 50px;
+    top: 132px;
+    font-size: 15px;
+    font-weight: bold; ">First Frequency:</label>
+
+<input type="number" id="f1_span3_damaged" min="2" max="249" style="position: absolute;
+    left: 192px;
+    top: 131px;
+    width: 145px; ">
+
+
+<label for="f2_span3_damaged" style="position: absolute;
+    left: 50px;
+    top: 182px;
+    font-size: 15px;
+    font-weight: bold; ">Second Frequency:</label>
+
+<input type="number" id="f2_span3_damaged" min="2" max="249" name="f2_span3_damaged" style="position: absolute;
+    left: 192px;
+    top: 178px;
+    width: 145px; ">
+
+<span style="position: absolute;
+    left: 392px;
+    top: 135px;
+    color: red;">[ Note: Frequency Range Between 1 to 250 kHz ]</span>
+
+ <input type="button" id="sbbtn_span3_damaged" style="
+    position: absolute;
+    left: 453px;
+    top: 170px;
+    width: 80px;
+    cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; padding-bottom: 5px; color: #FFF;" value="&nbsp;Submit&nbsp;" onclick="sbbtn_span3_damaged()"/>
+
+
+ <input type="button" id="reset_span3_damaged" style="
+   position: absolute;
+    left: 596px;
+    top: 170px;
+    width: 80px;
+    cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; padding-bottom: 5px; color: #FFF;" value="&nbsp;Reset&nbsp;" onclick="reset_span3_damaged()"/> -->
+
+
+     <input type="button" id="dwnld_span3_damaged" style="
+   position: absolute;
+   left: 315px;
+    top: 350px;
+    width: 123px;
+    cursor:pointer; font-size: 15px; background-color: #2150a0; visibility: ; padding-top: 5px; padding-bottom: 5px; color: #FFF;" value="&nbsp;Download Data&nbsp;" onclick="dwnld_span3_damaged()"/>
+
+<img src="images/lcr.png" id="lcr_span3_damaged" style="
+    position: absolute;
+   left: 260px;
+    top: 130px;
+    height: 160px;
+    visibility: ;"draggable="false">
+
+
+<img src="images/graph.png" id="graph_damage_span3" style="
+    position: absolute;
+    left: 49px;
+    top: 257px;
+    height: 280px;
+    visibility: hidden;"draggable="false">
+
+
+<!--Blinking arrowcubox  -->
+ <span class="blink_me" id="arrow14" style="position:absolute; font-size: 30px; left: 702px; top: 516px; color: blue; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+<i class="fa fa-hand-o-right" id="nextButton14" style="color: blue; position:absolute; left: 741px; top: 518px; font-size: 35px; visibility: hidden;" onclick="navNext14()"></i>
+</div>
+
+<!-- Step 3a -->
+
+<div class="simsubscreen" id="canvas3a" style="visibility:hidden; overflow: hidden;"> 
+
+<img src="images/bridge.png" style="position: absolute; left: 0px; top: 80px; height: 350px; width: 798px;">
+<span style="position: absolute; left: 95px; top:112px; color: ghostwhite; font-size: 18px;">SPAN-1</span>
+
+<span style="position: absolute; left: 274px; top:112px; color: ghostwhite; font-size: 18px;">SPAN-2</span>
+
+<span style="position: absolute; left: 455px; top:112px; color: ghostwhite; font-size: 18px;">SPAN-3</span>
+
+<span style="position: absolute; left: 643px; top:112px; color: ghostwhite; font-size: 18px;">SPAN-4</span>
+
+<!-- Sensors top -->
+
+  <img src="images/sesors.png"style="position: absolute; left: 0px; top: 80px; height: 28px;"draggable="false">
+ 
+
+<!-- /////////////////////////////////////////////////////////////////////////// -->
+ 
+
+  
+    <img src="images/sansorred.png" id="red11" style="position: absolute; left: 458px; top: 80px;
+    height: 28px;"draggable="false">
+
+    <img src="images/sansorred.png" id="red12" style="position: absolute; left: 504px; top: 80px;
+    height: 28px;"draggable="false">
+
+    <img src="images/sansorred.png" id="red13" style="position: absolute; left: 549px; top: 80px;
+    height: 28px;"draggable="false">
+
+    <img src="images/sansorred.png" id="red14" style="position: absolute; left: 595px; top: 80px;
+    height: 28px;"draggable="false">
+
+
+
+<!-- Sensors bottom -->
+
+    <img src="images/sansorred.png" id="red_btm11" style="position: absolute; left: 458px; top: 278px;
+    height: 28px;"draggable="false">
+
+    <img src="images/sansorred.png" id="red_btm12" style="position: absolute; left: 504px; top: 278px;
+    height: 28px;"draggable="false">
+
+    <img src="images/sansorred.png" id="red_btm13" style="position: absolute; left: 549px; top: 278px;
+    height: 28px;"draggable="false">
+
+    <img src="images/sansorred.png" id="red_btm14" style="position: absolute; left: 595px; top: 278px;
+    height: 28px;"draggable="false">
+
+<img src="images/green3.png" id="green3" style="
+    position: absolute;
+    left: 470px;
+    top: 260px;
+    height: 210px;
+    visibility:hidden;"draggable="false">
+
+    <img src="images/red3.png" id="red3_wire" style="
+    position: absolute;
+    left: 470px;
+    top: 259px;
+    height: 210px;
+    visibility:;"draggable="false">
+
+<!-- Yellow Wires -->
+
+<img src="images/w1.png" id="y_wr1_canvas1a" style="position: absolute; left: 120px; top: 260px; height: 220px; width: 610px;"draggable="false">
+
+<img src="images/w2.png" id="y_wr2_canvas1a" style="position: absolute; left: 300px; top: 260px; height: 220px; width: 440px;"draggable="false">
+
+<img src="images/w3.png" id="y_wr3_canvas1a" style="position: absolute; left: 480px; top: 260px; height: 220px; width: 280px;"draggable="false">
+
+<img src="images/w4.png" id="y_wr4_canvas1a" style="position: absolute; left: 670px; top: 260px; height: 220px; width: 100px;"draggable="false">
+
+<!-- Green Plates -->
+
+<img src="images/plategreen.png" style="position: absolute; left: 100px; top: 140px; height: 120px;"draggable="false">
+
+<img src="images/plategreen.png" style="position: absolute; left: 280px; top: 140px; height: 120px;"draggable="false">
+
+<img src="images/plategreen.png"  style="position: absolute; left: 460px; top: 140px; height: 120px;"draggable="false">
+
+<img src="images/plategreen.png"  style="position: absolute; left: 650px; top: 140px; height: 120px;"draggable="false">
+<!-- shm and btry -->
+
+
+   <img src="images/ss.jpg" style="
+    position: absolute;
+    left: 670px;
+    top: 442px;
+    height: 75px;
+    width:112px;
+    border: 1px solid black;
+    visibility: ;"draggable="false">
+
+<img src="images/battryfill.png" id="battryfill_canvas3a"style="
+    position: absolute;
+    left: 672px;
+    top: 445px;
+    height: 71px;
+    width: 109px;
+    visibility: ;"draggable="false">
+
+<img src="images/battry.png" style="
+    position: absolute;
+    left: 670px;
+    top: 432px;
+    height: 85px;
+    visibility: ;"draggable="false">
+
+  <img src="images/bat1.png" style="
+    position: absolute;
+    left: 562px;
+    top: 433px;
+    height: 71px;
+    visibility: ;"draggable="false">
+
+    <img src="images/bat2.png" style="
+    position: absolute;
+    left: 566px;
+    top: 433px;
+    height: 72px;
+    visibility: ;"draggable="false">
+
+<img src="images/shm.png" style="
+    position: absolute;
+    left: 493px;
+    top: 440px;
+    height: 105px;
+    visibility: ;"draggable="false">
+
+ <img src="images/crack.png" id="crack_span3_canvas3a" style="
+    position: absolute;
+    left: 360px;
+    top: 91px;
+    height: 220px;
+    "draggable="false">
+
+<span id="restrt_link3" style="position: absolute; 
+    left: 320px;
+    top: 522px;
+    color: blue;visibility: hidden;"onclick="//restrt_btn()"><a href="../index.html"><u>Click here to Restart</u></a></span>
+
+<i class="fa fa-hand-o-right blink_me" id="a3_span3" style="color: #0433b1;
+    position: absolute;
+    left: 286px;
+    top: 519px;
+    font-size: 25px;
+    visibility: hidden;"></i>
+
+</div>    
+
+<!-- ///////////////////////////span4//////////////////////////////////////////////// -->
+
+
+
+<!-- Step 16 -->
+
+
+  <div class="simsubscreen" id="canvas16" style="visibility:hidden; overflow: hidden;"> 
+<!-- <span style="position: absolute;
+    left: 15px;
+    top: 20px;
+    font-weight: bold;"> <strong style="font-size: 16px;">Step-2:</strong> Enter the frequencies below (in kHz).</span>
+
+
+<span style="
+    position: absolute;
+    left: 312px;
+    top: 61px;
+    font-size: 15px;
+    background-color: #070707;
+    padding: 7px;
+    color: white;">Undamaged State ( Span-4 )</span>
+
+
+<label for="f1_span4" style="position: absolute;
+    left: 50px;
+    top: 132px;
+    font-size: 15px;
+    font-weight: bold; ">First Frequency:</label>
+<input type="number" id="f1_span4" name="f1_span4" min="2" max="249" style="position: absolute;
+    left: 192px;
+    top: 131px;
+    width: 145px; ">
+
+
+<label for="f2_span4" style="position: absolute;
+    left: 50px;
+    top: 182px;
+    font-size: 15px;
+    font-weight: bold; ">Second Frequency:</label>
+
+<input type="number" id="f2_span4" min="2" max="249" name="f2_span4" style="position: absolute;
+    left: 192px;
+    top: 178px;
+    width: 145px;">
+
+<span style="position: absolute;
+    left: 392px;
+    top: 135px;
+    color: red;">[ Note: Frequency Range Between 1 to 250 kHz ]</span>
+
+ <input type="button" id="sbbtn_span4" style="
+    position: absolute;
+    left: 453px;
+    top: 170px;
+    width: 80px;
+    cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; padding-bottom: 5px; color: #FFF;" value="&nbsp;Submit&nbsp;" onclick="sbbtn_span4()"/>
+
+
+ <input type="button" id="reset_span4" style="
+   position: absolute;
+    left: 596px;
+    top: 170px;
+    width: 80px;
+    cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; padding-bottom: 5px; color: #FFF;" value="&nbsp;Reset&nbsp;" onclick="reset_span4()"/> -->
+
+
+     <input type="button" id="dwnld_span4" style="
+   position: absolute;
+   left: 315px;
+    top: 350px;
+    width: 123px;
+    cursor:pointer; font-size: 15px; background-color: #2150a0; visibility: ; padding-top: 5px; padding-bottom: 5px; color: #FFF;" value="&nbsp;Download Data&nbsp;" onclick="dwnld_span4()"/>
+
+<img src="images/lcr.png" id="lcr_span4" style="
+    position: absolute;
+  left: 260px;
+    top: 130px;
+    height: 160px;
+    visibility: ;"draggable="false">
+
+<img src="images/graph.png" id="graph_span4" style="
+    position: absolute;
+    left: 49px;
+    top: 257px;
+    height: 280px;
+    visibility: hidden;"draggable="false">
+
+<!--Blinking arrowcubox  -->
+ <span class="blink_me" id="arrow16" style="position:absolute; font-size: 30px; left: 702px; top: 516px; color: blue; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+<i class="fa fa-hand-o-right" id="nextButton16" style="color: blue; position:absolute; left: 741px; top: 518px; font-size: 35px; visibility: hidden;" onclick="navNext16()"></i>
+
+
+</div>     
+
+<!-- Step 17 -->
+
+
+ <div class="simsubscreen" id="canvas17" style="visibility:hidden; overflow: hidden;"> 
+
+
+<img src="images/bridge.png" style="position: absolute; left: 0px; top: 80px; height: 350px; width: 798px;"draggable="false">
+
+<span style="position: absolute; left: 95px; top:112px; color: ghostwhite; font-size: 18px;">SPAN-1</span>
+
+<span style="position: absolute; left: 274px; top:112px; color: ghostwhite; font-size: 18px;">SPAN-2</span>
+
+<span style="position: absolute; left: 455px; top:112px; color: ghostwhite; font-size: 18px;">SPAN-3</span>
+
+<span style="position: absolute; left: 643px; top:112px; color: ghostwhite; font-size: 18px;">SPAN-4</span>
+
+<!-- Yellow Wires -->
+<img src="images/w1.png"  style="position: absolute; left: 120px; top: 260px; height: 220px; width: 610px;"draggable="false">
+
+<img src="images/w2.png"  style="position: absolute; left: 300px; top: 260px; height: 220px; width: 440px;"draggable="false">
+
+<img src="images/w3.png"  style="position: absolute; left: 480px; top: 260px; height: 220px; width: 280px;"draggable="false">
+
+<img src="images/w4.png"  style="position: absolute; left: 670px; top: 260px; height: 220px; width: 100px;"draggable="false">
+
+<!-- Green Plates -->
+<img src="images/plategreen.png"  style="position: absolute; left: 100px; top: 140px; height: 120px;"draggable="false">
+
+<img src="images/plategreen.png"  style="position: absolute; left: 280px; top: 140px; height: 120px;"draggable="false">
+
+<img src="images/plategreen.png"  style="position: absolute; left: 460px; top: 140px; height: 120px;"draggable="false">
+
+<img src="images/plategreen.png"  style="position: absolute; left: 650px; top: 140px; height: 120px;"draggable="false">
+
+<!-- shm and btry -->
+
+
+
+<img src="images/battryfill.png" id="battryfill"style="
+    position: absolute;
+    left: 672px;
+    top: 445px;
+    height: 71px;
+    width: 109px;
+    visibility: ;"draggable="false">
+
+<img src="images/battry.png" style="
+    position: absolute;
+    left: 670px;
+    top: 432px;
+    height: 85px;
+    visibility: ;"draggable="false">
+
+      <img src="images/bat1.png" style="
+    position: absolute;
+    left: 562px;
+    top: 433px;
+    height: 71px;
+    visibility: ;"draggable="false">
+
+    <img src="images/bat2.png" style="
+    position: absolute;
+    left: 566px;
+    top: 433px;
+    height: 72px;
+    visibility: ;"draggable="false">
+
+    <img src="images/green4.png"  style="
+    position: absolute;
+    left: 485px;
+    top: 260px;
+    height: 205px;
+    visibility:;"draggable="false">
+
+    <img src="images/shm.png" style="
+    position: absolute;
+    left: 493px;
+    top: 440px;
+    height: 105px;
+    visibility: ;"draggable="false">
+
+     <img src="images/crack.png" id="crack_span4" style="
+    position: absolute;
+    left: 547px;
+    top: 91px;
+    height: 220px;
+    visibility: hidden;">
+
+<span style="position: absolute;
+    left: 15px;
+    top: 20px;
+    font-weight: bold;"> <strong style="font-size: 16px;">Step-3:</strong> Click on Induce Damage button to show damage on the bridge.</span>
+ 
+ <input type="button" id="inducedamage_span4" style="
+    position: absolute;
+    left: 610px;
+    top: 14px;
+    width: 126px;
+    cursor:pointer; 
+    font-size: 15px; background-color: #2150a0; padding-top: 5px; padding-bottom: 5px; color: #FFF;" value="&nbsp;Induce Damage&nbsp;" onclick="inducedamage_span4()"/>
+
+
+
+<!--Blinking arrowcubox  -->
+ <span class="blink_me" id="arrow17" style="position:absolute; font-size: 30px; left: 702px; top: 516px; color: blue; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+<i class="fa fa-hand-o-right" id="nextButton17" style="color: blue; position:absolute; left: 741px; top: 518px; font-size: 35px; visibility: hidden;" onclick="navNext17()"></i>
+
+</div>
+
+<!-- //////////////////////////////////////////////damaged span4///////////////////////////////// -->
+
+
+<!-- Step 18 -->
+
+
+ <div class="simsubscreen" id="canvas18" style="visibility:hidden; overflow: hidden;"> 
+<!-- <span style="position: absolute;
+    left: 15px;
+    top: 20px;
+    font-weight: bold;"> <strong style="font-size: 16px;">Step-4:</strong> Enter the frequencies below (in kHz).</span>
+
+
+<span style="
+    position: absolute;
+    left: 312px;
+    top: 61px;
+    font-size: 15px;
+    background-color: #070707;
+    padding: 7px;
+    color: white;">Damaged State ( Span-4 )</span>
+
+
+<label for="f1_span4_damaged" style="position: absolute;
+    left: 50px;
+    top: 132px;
+    font-size: 15px;
+    font-weight: bold; ">First Frequency:</label>
+
+<input type="number" id="f1_span4_damaged" min="2" max="249" style="position: absolute;
+    left: 192px;
+    top: 131px;
+    width: 145px; ">
+
+
+<label for="f2_span4_damaged" style="position: absolute;
+    left: 50px;
+    top: 182px;
+    font-size: 15px;
+    font-weight: bold; ">Second Frequency:</label>
+
+<input type="number" id="f2_span4_damaged" min="2" max="249" name="f2_span4_damaged" style="position: absolute;
+    left: 192px;
+    top: 178px;
+    width: 145px; ">
+
+<span style="position: absolute;
+    left: 392px;
+    top: 135px;
+    color: red;">[ Note: Frequency Range Between 1 to 250 kHz ]</span>
+
+ <input type="button" id="sbbtn_span4_damaged" style="
+    position: absolute;
+    left: 453px;
+    top: 170px;
+    width: 80px;
+    cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; padding-bottom: 5px; color: #FFF;" value="&nbsp;Submit&nbsp;" onclick="sbbtn_span4_damaged()"/>
+
+
+ <input type="button" id="reset_span4_damaged" style="
+   position: absolute;
+    left: 596px;
+    top: 170px;
+    width: 80px;
+    cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; padding-bottom: 5px; color: #FFF;" value="&nbsp;Reset&nbsp;" onclick="reset_span4_damaged()"/> -->
+
+
+     <input type="button" id="dwnld_span4_damaged" style="
+   position: absolute;
+    left: 315px;
+    top: 350px;
+    width: 123px;
+    cursor:pointer; font-size: 15px; background-color: #2150a0; visibility: ; padding-top: 5px; padding-bottom: 5px; color: #FFF;" value="&nbsp;Download Data&nbsp;" onclick="dwnld_span4_damaged()"/>
+
+<img src="images/lcr.png" id="lcr_span4_damaged" style="
+    position: absolute;
+  left: 260px;
+    top: 130px;
+    height: 160px;
+    visibility: ;"draggable="false">
+
+
+<img src="images/graph.png" id="graph_damage_span4" style="
+    position: absolute;
+    left: 49px;
+    top: 257px;
+    height: 280px;
+    visibility: hidden;"draggable="false">
+
+<!--Blinking arrowcubox  -->
+ <span class="blink_me" id="arrow18" style="position:absolute; font-size: 30px; left: 702px; top: 516px; color: blue; visibility: hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+<i class="fa fa-hand-o-right" id="nextButton18" style="color: blue; position:absolute; left: 741px; top: 518px; font-size: 35px; visibility: hidden;" onclick="navNext18()"></i>
+</div>
+
+<!-- Step 4a -->
+
+<div class="simsubscreen" id="canvas4a" style="visibility:hidden; overflow: hidden;"> 
+
+<img src="images/bridge.png" style="position: absolute; left: 0px; top: 80px; height: 350px; width: 798px;"draggable="false">
+
+<span style="position: absolute; left: 95px; top:112px; color: ghostwhite; font-size: 18px;">SPAN-1</span>
+
+<span style="position: absolute; left: 274px; top:112px; color: ghostwhite; font-size: 18px;">SPAN-2</span>
+
+<span style="position: absolute; left: 455px; top:112px; color: ghostwhite; font-size: 18px;">SPAN-3</span>
+
+<span style="position: absolute; left: 643px; top:112px; color: ghostwhite; font-size: 18px;">SPAN-4</span>
+
+<!-- Sensors top -->
+
+  <img src="images/sesors.png"style="position: absolute; left: 0px; top: 80px; height: 28px;"draggable="false">
+ 
+
+<!-- /////////////////////////////////////////////////////////////////////////// -->
+ 
+      
+    <img src="images/sansorred.png" id="red15" style="position: absolute; left: 641px; top: 80px;
+    height: 28px;"draggable="false">
+
+    <img src="images/sansorred.png" id="red16" style="position: absolute; left: 687px; top: 80px;
+    height: 28px;"draggable="false">
+
+    <img src="images/sansorred.png" id="red17" style="position: absolute; left: 732px; top: 80px;
+    height: 28px;"draggable="false">
+
+    <img src="images/sansorred.png" id="red18" style="position: absolute; left: 778px; top: 80px;
+    height: 28px;"draggable="false">
+ 
+
+
+
+<!-- Sensors bottom -->
+
+    
+     
+    <img src="images/sansorred.png" id="red_btm15" style="position: absolute; left: 641px; top: 278px;
+    height: 28px;"draggable="false">
+
+    <img src="images/sansorred.png" id="red_btm16" style="position: absolute; left: 687px; top: 278px;
+    height: 28px;"draggable="false">
+
+    <img src="images/sansorred.png" id="red_btm17" style="position: absolute; left: 732px; top: 278px;
+    height: 28px;"draggable="false">
+
+    <img src="images/sansorred.png" id="red_btm18" style="position: absolute; left: 778px; top: 278px;
+    height: 28px;"draggable="false">
+ 
+<img src="images/green4.png" id="green4" style="
+    position: absolute;
+    left: 485px;
+    top: 260px;
+    height: 205px;
+    visibility:hidden;"draggable="false">
+
+    <img src="images/red4.png" id="red4_wire" style="
+     position: absolute;
+    left: 485px;
+    top: 260px;
+    height: 205px;
+    visibility:;"draggable="false">
+
+
+
+<!-- Yellow Wires -->
+<img src="images/w1.png" id="y_wr1_canvas1a" style="position: absolute; left: 120px; top: 260px; height: 220px; width: 610px;"draggable="false">
+
+<img src="images/w2.png" id="y_wr2_canvas1a" style="position: absolute; left: 300px; top: 260px; height: 220px; width: 440px;"draggable="false">
+
+<img src="images/w3.png" id="y_wr3_canvas1a" style="position: absolute; left: 480px; top: 260px; height: 220px; width: 280px;"draggable="false">
+
+<img src="images/w4.png" id="y_wr4_canvas1a" style="position: absolute; left: 670px; top: 260px; height: 220px; width: 100px;"draggable="false">
+
+<!-- Green Plates -->
+<img src="images/plategreen.png" style="position: absolute; left: 100px; top: 140px; height: 120px;"draggable="false">
+
+<img src="images/plategreen.png" style="position: absolute; left: 280px; top: 140px; height: 120px;"draggable="false">
+
+<img src="images/plategreen.png"  style="position: absolute; left: 460px; top: 140px; height: 120px;"draggable="false">
+
+<img src="images/plategreen.png"  style="position: absolute; left: 650px; top: 140px; height: 120px;"draggable="false">
+<!-- shm and btry -->
+
+
+   <img src="images/ss.jpg" style="
+    position: absolute;
+    left: 670px;
+    top: 442px;
+    height: 75px;
+    width:112px;
+    border: 1px solid black;
+    visibility: ;"draggable="false">
+
+<img src="images/battryfill.png" id="battryfill_canvas4a"style="
+    position: absolute;
+    left: 672px;
+    top: 445px;
+    height: 71px;
+    width: 109px;
+    visibility: ;"draggable="false">
+
+<img src="images/battry.png" style="
+    position: absolute;
+    left: 670px;
+    top: 432px;
+    height: 85px;
+    visibility: ;"draggable="false">
+
+  <img src="images/bat1.png" style="
+    position: absolute;
+    left: 562px;
+    top: 433px;
+    height: 71px;
+    visibility: ;"draggable="false">
+
+    <img src="images/bat2.png" style="
+    position: absolute;
+    left: 566px;
+    top: 433px;
+    height: 72px;
+    visibility: ;"draggable="false">
+
+<img src="images/shm.png" style="
+    position: absolute;
+    left: 493px;
+    top: 440px;
+    height: 105px;
+    visibility: ;"draggable="false">
+
+ <img src="images/crack.png" id="crack_span4_canvas4a" style="
+    position: absolute;
+    left: 547px;
+    top: 91px;
+    height: 220px;
+    "draggable="false">
+
+<span id="restrt_link4" style="position: absolute; 
+    left: 320px;
+    top: 522px;
+    color: blue;visibility: hidden;" onclick="//restrt_btn()"><a href="../index.html"><u>Click here to Restart</u></a></span>
+
+<i class="fa fa-hand-o-right blink_me" id="a4_span4" style="color: #0433b1;
+    position: absolute;
+    left: 286px;
+    top: 519px;
+    font-size: 25px;
+    visibility: hidden;"></i>
+
+</div>    
+
+
+<!-- Step 19 -->
+
+
+<div class="simsubscreen" id="canvas19" style="visibility:hidden; overflow: hidden;"> 
+
+
+<img src="images/bridge.png" style="position: absolute; left: 0px; top: 80px; height: 350px; width: 798px;"draggable="false">
+
+<span style="position: absolute; left: 95px; top:112px; color: ghostwhite; font-size: 18px;">SPAN-1</span>
+
+<span style="position: absolute; left: 274px; top:112px; color: ghostwhite; font-size: 18px;">SPAN-2</span>
+
+<span style="position: absolute; left: 455px; top:112px; color: ghostwhite; font-size: 18px;">SPAN-3</span>
+
+<span style="position: absolute; left: 643px; top:112px; color: ghostwhite; font-size: 18px;">SPAN-4</span>
+
+<!-- Yellow Wires -->
+<img src="images/w1.png"  style="position: absolute; left: 120px; top: 260px; height: 220px; width: 610px;"draggable="false">
+
+<img src="images/w2.png"  style="position: absolute; left: 300px; top: 260px; height: 220px; width: 440px;"draggable="false">
+
+<img src="images/w3.png"  style="position: absolute; left: 480px; top: 260px; height: 220px; width: 280px;"draggable="false">
+
+<img src="images/w4.png"  style="position: absolute; left: 670px; top: 260px; height: 220px; width: 100px;"draggable="false">
+
+<!-- Green Plates -->
+<img src="images/plategreen.png"  style="position: absolute; left: 100px; top: 140px; height: 120px;"draggable="false">
+
+<img src="images/plategreen.png"  style="position: absolute; left: 280px; top: 140px; height: 120px;"draggable="false">
+
+<img src="images/plategreen.png"  style="position: absolute; left: 460px; top: 140px; height: 120px;"draggable="false">
+
+<img src="images/plategreen.png"  style="position: absolute; left: 650px; top: 140px; height: 120px;"draggable="false">
+
+<!-- shm and btry -->
+
+<img src="images/shm.png" style="
+    position: absolute;
+    left: 493px;
+    top: 440px;
+    height: 105px;
+    visibility: ;"draggable="false">
+
+<img src="images/battryfill.png" id="battryfill"style="
+    position: absolute;
+    left: 672px;
+    top: 445px;
+    height: 71px;
+    width: 109px;
+    visibility: ;"draggable="false">
+
+<img src="images/battry.png" style="
+    position: absolute;
+    left: 670px;
+    top: 432px;
+    height: 85px;
+    visibility: ;"draggable="false">
+
+<span style="position: absolute;
+    left: 15px;
+    top: 7px; font-weight: bold;"> <strong style="font-size: 16px;">Step-1:</strong> Click on any button below to take the signature of bridge in corresponding spans for undamaged condition.</span>
+ 
+ <input type="button" id="span1" style="
+    position: absolute;
+    left: 117px;
+    top: 35px;
+    width: 100px; 
+    cursor:pointer; 
+    font-size: 15px; background-color: #2150a0; padding-top: 5px; padding-bottom: 5px; color: #FFF;" value="&nbsp;Span-1&nbsp;" onclick="span1()"/>
+
+
+
+ <input type="button" id="span2" style="
+    position: absolute;
+    left: 275px;
+    top: 35px;
+    width: 100px; 
+    cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; padding-bottom: 5px; color: #FFF;" value="&nbsp;Span-2&nbsp;" onclick="span2()"/>
+
+
+ <input type="button" id="span3" style="
+    position: absolute;
+    left: 433px;
+    top: 35px;
+    width: 100px; 
+    cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; padding-bottom: 5px; color: #FFF;" value="&nbsp;Span-3&nbsp;" onclick="span3()"/>
+
+
+
+
+ <input type="button" id="span4" style="
+    position: absolute;
+    left: 591px;
+    top: 35px;
+    width: 100px; 
+    cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; padding-bottom: 5px; color: #FFF;" value="&nbsp;Span-4&nbsp;" onclick="span4()"/>
+
+
+
+</div>
+
+    </div><!--- First Div---->
+
+<!---<div style="text-align: center; font-size: 11px; width:800px; border:1px solid #000; position: relative; border-top:none; color: #FFF; background-color: #000;">Developed by @ <a href="#" ><strong style="color: #FFF; font-size: 12px;">Virtuality India Pvt.Ltd</strong></a></div>
+</body>
+i class="fa fa-arrow-right" style="color: #82C91E"></i>
+<i class="fa fa-arrow-left" style="color: #82C91E"></i>
+<i class="fa fa-arrow-down" style="color: #82C91E"></i>
+<i class="fa fa-arrow-up" style="color: #82C91E"></i>
+<i class="fa fa-chevron-circle-right" style="color: #82C91E"></i>
+
+
+<i class="fas fa-hand-point-right" style="color: #82C91E"></i--->
+    
+        </td>
+    </tr>
+</table>
+</body>
+</html>
