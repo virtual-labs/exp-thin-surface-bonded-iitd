@@ -62,13 +62,13 @@ Download Data
 
 <img src="images/pr11.png"/>
 
-
-**Class B Train of Vehicles**
-
+1. Click start experiment button to start the experiment.
 
 <img src="images/pr12.png"/>
 
-Download Data
+**Class B Train of Vehicles**
+
+2. Click start experiment button to start the experiment.
 
 <img src="images/pr13.png"/>
 
@@ -108,11 +108,13 @@ Download Data
 
 <img src="images/pr22.png"/>
 
-Download Data
+1. Click start experiment button to start the experiment.
 
 <img src="images/pr23.png"/>
 
-Download Data
+**Class AA Tracked and wheeled trains of Vehicles**
+
+2. Click start experiment button to start the experiment.
 
 <img src="images/pr24.png"/>
 
@@ -131,14 +133,6 @@ Download Data
 Download Data
 
 <img src="images/pr28.png"/>
-
-Download Data
-
-<img src="images/pr29.png"/>
-
-Download Data
-
-<img src="images/pr30.png"/>
 
 
 <!-- **POST EXPERIMENT TASK**
