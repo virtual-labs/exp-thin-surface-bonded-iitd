@@ -15,24 +15,131 @@ SHM?<br>
 as far as SHM is concerned?<br>
 9) How much input energy is needed for one time operation of Keysight
 4980 LCR meter and AD5933?<br> -->
+ 
+**Preparation of specimens:**
 
-**Procedure**
+1. Click start experiment button to start the experiment.
 
-This simulation experiment covers three setups: Class A train of vehicles, Class B train of vehicles and Class AA (tracked and wheeled) train of vehicles (Class 70 R). A bridge is considered on which 4 sets of PZT patches are banded. Each set contains 12 PZT patches. So overall, the bridge contains 48 sensors. The bridge has four spans. Initially in energy harvesting stage/idle state, each set of sensors are connected to the battery through wires. The user can change choose the vehicle class (A or B or AA) to pass over the bridge. As the vehicle moves, the mechanical vibrations in the bridge result in generation of voltage across PZT patch generating electrical power. The generated energy is stored inside a battery. In SHM state, SHM device (AD5933) is attached to the damaged span and the fully charged battery. The energy stored inside the battery is used for evalution of each span.
-<br><br>
+<img src="images/pr1.png"/>
 
-By clicking the appropriate links, the user can download the signatures corresponding to the baseline
-(undamaged) and damaged states. To statistically quantify damage, compute root mean square deviation
-(RMSD) in conductance by following equation directly in MS excel:
-<br><br>
-<img src="images/pr1.png" height="150px">
-<br><br>
-where<br><br>
- G<sub>i</sub><sup>0</sup> = Baseline conductance value at <i>i<sup>th</sup></i> frequency.<br>
- G<sub>i</sub><sup>1</sup> = Conductance value after damage at <i>i<sup>th</sup></i> frequency.<br>
-<i>n</i> = No. of frequency data points
+**Class A Train of Vehicles**
 
-As an exercise, plot a histogram of RMSD for the various damaged states. Note your observations and draw conclusions.
+2. Click start experiment button to start the experiment.
+
+<img src="images/pr2.png"/>
+
+<img src="images/pr3.png"/>
+
+Click on any button below to take the signature of bridge in corresponding spans for undamaged condition.
+
+<img src="images/pr4.png"/>
+
+Click on Download Data button
+
+<img src="images/pr5.png"/>
+
+Download Data
+
+<img src="images/pr6.png"/>
+
+Click on Induce Damage button to show damage on the bridge.
+
+<img src="images/pr7.png"/>
+
+Show damage on the bridge.
+
+<img src="images/pr8.png"/>
+
+Click on Download Data button
+
+<img src="images/pr9.png"/>
+
+Download Data
+
+<img src="images/pr10.png"/>
+
+Download Data
+
+<img src="images/pr11.png"/>
+
+
+**Class B Train of Vehicles**
+
+
+<img src="images/pr12.png"/>
+
+Download Data
+
+<img src="images/pr13.png"/>
+
+Download Data
+
+<img src="images/pr14.png"/>
+
+Download Data
+
+<img src="images/pr15.png"/>
+
+Download Data
+
+<img src="images/pr16.png"/>
+
+Download Data
+
+<img src="images/pr17.png"/>
+
+Download Data
+
+<img src="images/pr18.png"/>
+
+Download Data
+
+<img src="images/pr19.png"/>
+
+Download Data
+
+<img src="images/pr20.png"/>
+
+Download Data
+
+<img src="images/pr21.png"/>
+
+Download Data
+
+<img src="images/pr22.png"/>
+
+Download Data
+
+<img src="images/pr23.png"/>
+
+Download Data
+
+<img src="images/pr24.png"/>
+
+Download Data
+
+<img src="images/pr25.png"/>
+
+Download Data
+
+<img src="images/pr26.png"/>
+
+Download Data
+
+<img src="images/pr27.png"/>
+
+Download Data
+
+<img src="images/pr28.png"/>
+
+Download Data
+
+<img src="images/pr29.png"/>
+
+Download Data
+
+<img src="images/pr30.png"/>
+
 
 <!-- **POST EXPERIMENT TASK**
 
