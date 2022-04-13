@@ -58,7 +58,7 @@ Download Data
 
 <img src="images/pr10.png"/>
 
-Download Data
+Click here to restart the experiment.
 
 <img src="images/pr11.png"/>
 
@@ -72,11 +72,10 @@ Download Data
 
 <img src="images/pr13.png"/>
 
-Download Data
 
 <img src="images/pr14.png"/>
 
-Download Data
+Click on any button below to take the signature of bridge in corresponding spans for undamaged condition.
 
 <img src="images/pr15.png"/>
 
@@ -88,11 +87,11 @@ Download Data
 
 <img src="images/pr17.png"/>
 
-Download Data
+Click on Induce Damage button to show damage on the bridge.
 
 <img src="images/pr18.png"/>
 
-Download Data
+Show damage on the bridge.
 
 <img src="images/pr19.png"/>
 
@@ -104,7 +103,7 @@ Download Data
 
 <img src="images/pr21.png"/>
 
-Download Data
+Click here to restart the experiment.
 
 <img src="images/pr22.png"/>
 
@@ -118,19 +117,17 @@ Download Data
 
 <img src="images/pr24.png"/>
 
-Download Data
-
 <img src="images/pr25.png"/>
 
-Download Data
+Click the tags below to induce damage in corresponding span.
 
 <img src="images/pr26.png"/>
 
-Download Data
+Click on Start SHM button
 
 <img src="images/pr27.png"/>
 
-Download Data
+Click here to restart the experiment.
 
 <img src="images/pr28.png"/>
 
