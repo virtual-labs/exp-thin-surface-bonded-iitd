@@ -119,7 +119,7 @@ Click here to restart the experiment.
 
 <img src="images/pr25.png"/>
 
-Click the tags below to induce damage in corresponding span.
+Click on any button below to take the signature of bridge in corresponding spans for undamaged condition.
 
 <img src="images/pr26.png"/>
 
