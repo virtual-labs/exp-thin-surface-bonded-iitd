@@ -1,1 +1,1 @@
-## Piezoelectric Energy Harvesting and Structural Health Monitoring Using Thin Surface Bonded PZT Patches
+## Piezoelectric Energy Harvesting and Structural Health Monitoring using Thin Surface Bonded PZT Patches
